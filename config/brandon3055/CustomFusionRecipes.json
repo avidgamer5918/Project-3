@@ -1,0 +1,20 @@
+[
+    {
+        "mode": "ADD",
+        "result": "projecte:condenser_mk1",
+        "catalyst": "progressivealchemy:condensertiered_8",
+        "energy": 1000000,
+        "tier": 2,
+        "ingredients": [
+            "contenttweaker:compressed_carbon_ingot",
+            "draconicevolution:awakened_core",
+            "contenttweaker:compressed_carbon_ingot",
+            "draconicevolution:draconic_block",
+            "draconicevolution:awakened_core",
+            "draconicevolution:draconic_block",
+            "contenttweaker:compressed_carbon_ingot",
+            "draconicevolution:awakened_core",
+            "contenttweaker:compressed_carbon_ingot"
+        ]
+    },
+]

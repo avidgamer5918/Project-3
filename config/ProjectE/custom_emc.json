@@ -1,0 +1,20 @@
+{
+  "entries": [
+    {
+      "item": "draconicevolution:draconium_ingot|0",
+      "emc": 8192
+    },
+    {
+      "item": "draconicevolution:draconium_block|0",
+      "emc": 73728
+    },
+    {
+      "item": "draconicevolution:draconic_ingot|0",
+      "emc": 16384
+    },
+    {
+      "item": "draconicevolution:draconic_block|0",
+      "emc": 147456
+    }
+  ]
+}

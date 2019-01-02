@@ -1,0 +1,55 @@
+{ 
+  "name": "compactmachines3:Compressed_carbon_ingot",
+  "target-item": "contenttweaker:compressed_carbon_ingot",
+  "target-meta": 0,
+  "target-count": 8,
+
+  "duration": 250,
+
+  "catalyst": "appliedenergistics2:material",
+  "catalyst-meta": 47,
+  "input-types": {
+    "a": {
+      "id": "minecraft:coal_block",
+      "meta": 0
+    }
+  },
+  "shape": [
+    [
+      
+      ["a","a","a","a","a"],
+      ["a","a","a","a","a"],
+      ["a","a","a","a","a"],
+      ["a","a","a","a","a"],
+      ["a","a","a","a","a"]
+    ],
+    [
+      ["a","a","a","a","a"],
+      ["a","a","a","a","a"],
+      ["a","a","a","a","a"],
+      ["a","a","a","a","a"],
+      ["a","a","a","a","a"]
+    ],
+    [
+      ["a","a","a","a","a"],
+      ["a","a","a","a","a"],
+      ["a","a","a","a","a"],
+      ["a","a","a","a","a"],
+      ["a","a","a","a","a"]
+    ],
+    [
+      ["a","a","a","a","a"],
+      ["a","a","a","a","a"],
+      ["a","a","a","a","a"],
+      ["a","a","a","a","a"],
+      ["a","a","a","a","a"]
+    ],
+    [
+      ["a","a","a","a","a"],
+      ["a","a","a","a","a"],
+      ["a","a","a","a","a"],
+      ["a","a","a","a","a"],
+      ["a","a","a","a","a"]
+    ]
+  ]
+}
