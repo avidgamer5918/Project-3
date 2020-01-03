@@ -1,2 +1,2 @@
 # Staged Learning
-WIP Expert style pack
+Staged Progresssion Questing Pack
