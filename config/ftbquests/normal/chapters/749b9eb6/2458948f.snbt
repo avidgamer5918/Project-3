@@ -1,0 +1,175 @@
+{
+	title: "Chemical Combiner",
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:chemical_combiner"
+		}
+	},
+	x: 1.0d,
+	y: -2.0d,
+	description: "{Chapter6.ChemicalCombiner.Subtitle}",
+	dependencies: [
+		"d182385f"
+	],
+	tasks: [{
+		uid: "b7e96424",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz_block"
+		}],
+		count: 12L,
+		consume_items: true
+	},
+	{
+		uid: "7dce4b3e",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch"
+		},
+		{
+			item: "modularmachinery:blockfluidinputhatch 1 1"
+		},
+		{
+			item: "modularmachinery:blockfluidinputhatch 1 2"
+		},
+		{
+			item: "modularmachinery:blockfluidinputhatch 1 3"
+		},
+		{
+			item: "modularmachinery:blockfluidinputhatch 1 4"
+		},
+		{
+			item: "modularmachinery:blockfluidinputhatch 1 5"
+		},
+		{
+			item: "modularmachinery:blockfluidinputhatch 1 6"
+		},
+		{
+			item: "modularmachinery:blockfluidinputhatch 1 7"
+		}],
+		count: 2L,
+		consume_items: true
+	},
+	{
+		uid: "126bffac",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 8"
+		}],
+		count: 8L,
+		consume_items: true
+	},
+	{
+		uid: "e43d210b",
+		type: "item",
+		items: [{
+			item: "minecraft:quartz_block 1 1"
+		}],
+		count: 9L,
+		consume_items: true
+	},
+	{
+		uid: "5f3f4c56",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus"
+		},
+		{
+			item: "modularmachinery:blockoutputbus 1 1"
+		},
+		{
+			item: "modularmachinery:blockoutputbus 1 2"
+		},
+		{
+			item: "modularmachinery:blockoutputbus 1 3"
+		},
+		{
+			item: "modularmachinery:blockoutputbus 1 4"
+		},
+		{
+			item: "modularmachinery:blockoutputbus 1 5"
+		},
+		{
+			item: "modularmachinery:blockoutputbus 1 6"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "6a9dae9d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch"
+		},
+		{
+			item: "modularmachinery:blockenergyinputhatch 1 1"
+		},
+		{
+			item: "modularmachinery:blockenergyinputhatch 1 2"
+		},
+		{
+			item: "modularmachinery:blockenergyinputhatch 1 3"
+		},
+		{
+			item: "modularmachinery:blockenergyinputhatch 1 4"
+		},
+		{
+			item: "modularmachinery:blockenergyinputhatch 1 5"
+		},
+		{
+			item: "modularmachinery:blockenergyinputhatch 1 6"
+		},
+		{
+			item: "modularmachinery:blockenergyinputhatch 1 7"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "b6b7740c",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "d776387b",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:chemical_combiner"
+			}
+		}
+	},
+	{
+		uid: "43df9140",
+		type: "item",
+		item: {
+			id: "thermalexpansion:reservoir",
+			tag: {},
+			Damage: 1s
+		}
+	},
+	{
+		uid: "aaadeede",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				color: 14714914,
+				size: 5,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "minecraft:config/capsule/rewards/chemicalcombiner",
+				author: "Avidgamer5918",
+				display: {
+					color: 10076989
+				},
+				label: "chemicalcombiner",
+				canRotate: 0b
+			},
+			Damage: 5s
+		}
+	}]
+}

@@ -1,0 +1,126 @@
+{
+	title: "Dragonborn",
+	icon: {
+		ForgeCaps: {
+			Parent: {
+				Size: 27,
+				Items: []
+			}
+		},
+		id: "draconicevolution:draconic_staff_of_power",
+		tag: {
+			Energy: 48000000
+		}
+	},
+	x: 3.0d,
+	y: 1.0d,
+	description: "{Chapter7.Dragonborn.Subtitle}",
+	dependencies: [
+		"c540b6c5"
+	],
+	tasks: [{
+		uid: "7b8c2497",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					Size: 27,
+					Items: []
+				}
+			},
+			id: "draconicevolution:draconic_staff_of_power",
+			tag: {
+				Energy: 48000000,
+				Profile_0: {
+					showDigAOE: 0b,
+					digDepth: 0,
+					digSpeed: 100,
+					aoeSafeMode: 0b,
+					digAOE: 0,
+					attackAOE: 2.0d,
+					junkNbtSens: 1b,
+					enableJunkFilter: 1b
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "a418ad6d",
+		type: "item",
+		items: [{
+			id: "draconicevolution:draconic_bow",
+			tag: {
+				Energy: 16000000,
+				Profile_0: {
+					bowFireArrow: 0b,
+					bowZoomModifier: 0,
+					bowShockPower: 0.0d,
+					bowArrowSpeedModifier: 200,
+					bowAutoFire: 0b,
+					bowExplosionPower: 0.0d,
+					bowArrowDamage: 3.0d
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "30ad9adb",
+		type: "item",
+		items: [{
+			id: "draconicevolution:draconium_capacitor",
+			tag: {
+				DEUpgrades: {
+					rfCap: 4b
+				},
+				Energy: 768000000
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "eb6bfe54",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_helm"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8157501f",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "dabb7963",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "200e64f0",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "59cff843",
+		type: "item",
+		item: "draconicevolution:celestial_manipulator"
+	}]
+}

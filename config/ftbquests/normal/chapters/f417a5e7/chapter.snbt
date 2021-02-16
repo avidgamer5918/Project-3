@@ -1,0 +1,7 @@
+{
+	title: "Better Power",
+	icon: "advgenerators:syngas_controller",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

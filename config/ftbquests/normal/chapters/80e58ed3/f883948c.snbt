@@ -1,0 +1,70 @@
+{
+	title: "Item Challenge",
+	icon: "extendedcrafting:material 1 32",
+	x: 0.0d,
+	y: -5.5d,
+	shape: "circle",
+	dependencies: [
+		"6ccfe66f",
+		"21ad4afc",
+		"97629f61",
+		"5eb19e15",
+		"55075ac3",
+		"44ccc189",
+		"d61e4048",
+		"e8e79ce0",
+		"a24658fe",
+		"7976547f",
+		"c523873e"
+	],
+	tasks: [{
+		uid: "2616c691",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 32"
+		}],
+		count: 10000L,
+		consume_items: true
+	},
+	{
+		uid: "faf8af87",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity_ultimate"
+		}],
+		count: 10000L,
+		consume_items: true
+	},
+	{
+		uid: "fe94b131",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity_custom 1 68"
+		}],
+		count: 10000L,
+		consume_items: true
+	},
+	{
+		uid: "611f685f",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:singularity_custom 1 67"
+		}],
+		count: 10000L,
+		consume_items: true
+	},
+	{
+		uid: "b401ccbf",
+		type: "item",
+		items: [{
+			item: "projectex:final_star_shard"
+		}],
+		count: 1000L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "15ef057b",
+		type: "ftbmoney:money",
+		ftb_money: 2000L
+	}]
+}

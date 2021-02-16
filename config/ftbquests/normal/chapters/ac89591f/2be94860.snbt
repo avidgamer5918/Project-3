@@ -1,0 +1,25 @@
+{
+	x: -1.0d,
+	y: 7.0d,
+	dependencies: [
+		"cf57f606"
+	],
+	tasks: [{
+		uid: "3bada6a4",
+		type: "item",
+		items: [{
+			item: "extrautils2:opinium 1 6"
+		}]
+	}],
+	rewards: [{
+		uid: "923886fc",
+		type: "item",
+		item: {
+			id: "extrautils2:luxsaber",
+			tag: {
+				Energy: 40000
+			},
+			Damage: 1s
+		}
+	}]
+}

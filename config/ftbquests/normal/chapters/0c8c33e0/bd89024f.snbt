@@ -1,0 +1,22 @@
+{
+	x: -2.5d,
+	y: -2.0d,
+	shape: "circle",
+	description: "{Chapter10.Waystone.Subtitle}",
+	hide_dependency_lines: true,
+	dependencies: [
+		"3a0eeb58"
+	],
+	tasks: [{
+		uid: "cfd1392c",
+		type: "item",
+		items: [{
+			item: "waystones:waystone"
+		}]
+	}],
+	rewards: [{
+		uid: "61f333ec",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

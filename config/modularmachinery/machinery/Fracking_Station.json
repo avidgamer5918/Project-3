@@ -1,0 +1,566 @@
+{
+    "registryname": "Fracking_Station",
+    "localizedname": "Fracking Station",
+    "color":"8E8E8E",
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_fluid_output"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -2,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 7,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "casings_energy_input"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 8,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration2@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration2@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 0,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -2,
+            "z": 2,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 5,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": -3,
+            "z": 1,
+            "elements": [
+                "thermalfoundation:storage_alloy@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": -1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_decoration2@7"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_decoration1@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 6,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:metal_decoration2@7"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:sheetmetal@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 4,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:metal_decoration1@0"
+            ]
+        }
+    ]}

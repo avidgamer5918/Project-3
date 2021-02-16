@@ -1,0 +1,22 @@
+{
+	x: -1.5d,
+	y: -1.0d,
+	shape: "circle",
+	description: "{Chapter10.SoundMuffler.Subtitle}",
+	hide_dependency_lines: true,
+	dependencies: [
+		"3a0eeb58"
+	],
+	tasks: [{
+		uid: "4f5088c8",
+		type: "item",
+		items: [{
+			item: "supersoundmuffler:sound_muffler"
+		}]
+	}],
+	rewards: [{
+		uid: "e2bba34e",
+		type: "item",
+		item: "supersoundmuffler:sound_muffler_bauble"
+	}]
+}

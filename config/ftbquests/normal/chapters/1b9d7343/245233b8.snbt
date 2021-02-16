@@ -1,0 +1,27 @@
+{
+	icon: "projectex:collector 1 9",
+	x: 3.5d,
+	y: 10.0d,
+	dependencies: [
+		"76f9eb24"
+	],
+	tasks: [{
+		uid: "272d533c",
+		type: "item",
+		items: [{
+			item: "projectex:collector 1 9"
+		}]
+	},
+	{
+		uid: "80eba612",
+		type: "item",
+		items: [{
+			item: "projectex:relay 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "7efda1ee",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

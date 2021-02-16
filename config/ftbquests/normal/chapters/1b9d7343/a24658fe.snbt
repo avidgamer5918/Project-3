@@ -1,0 +1,22 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	dependencies: [
+		"21ad4afc"
+	],
+	tasks: [{
+		uid: "194ad67f",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_shovel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "629b17cf",
+		type: "item",
+		item: "extendedcrafting:singularity_ultimate",
+		count: 2
+	}]
+}

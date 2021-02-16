@@ -1,0 +1,60 @@
+{
+	title: "Crusher",
+	icon: "immersiveengineering:metal_decoration1 1 1",
+	x: -4.0d,
+	y: 0.0d,
+	description: "{Chapter4.Crusher.Subtitle}",
+	dependencies: [
+		"af261283"
+	],
+	tasks: [{
+		uid: "29c36777",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 1 1"
+		}],
+		count: 10L
+	},
+	{
+		uid: "4678e32a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	},
+	{
+		uid: "9fd4e057",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 4"
+		}],
+		count: 10L
+	},
+	{
+		uid: "3f28c0bb",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1"
+		}],
+		count: 8L
+	},
+	{
+		uid: "b6eeac71",
+		type: "item",
+		items: [{
+			item: "minecraft:hopper"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "d87ac847",
+		type: "item",
+		item: {
+			id: "immersiveengineering:conveyor",
+			tag: {
+				conveyorType: "immersiveengineering:conveyor"
+			}
+		},
+		count: 16
+	}]
+}

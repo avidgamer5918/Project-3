@@ -1,0 +1,31 @@
+{
+	title: "Coke Oven",
+	icon: "immersiveengineering:stone_decoration",
+	x: -3.0d,
+	y: -2.0d,
+	description: "{Chapter4.CokeOven.Subtitle}",
+	dependencies: [
+		"1d99d51f"
+	],
+	tasks: [{
+		uid: "9594f442",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:tool"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5dc53ba6",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration"
+		}],
+		count: 27L
+	}],
+	rewards: [{
+		uid: "18a71870",
+		type: "item",
+		item: "immersiveengineering:jerrycan"
+	}]
+}

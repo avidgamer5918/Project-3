@@ -1,0 +1,22 @@
+{
+	x: 1.0d,
+	y: 1.0d,
+	description: "{Chapter6.Assembler.Subtitle}",
+	dependencies: [
+		"a585816d"
+	],
+	tasks: [{
+		uid: "ce18c0a5",
+		type: "item",
+		items: [{
+			item: "environmentaltech:tool_multiblock_assembler"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e65de03e",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

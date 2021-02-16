@@ -1,0 +1,15 @@
+{
+	x: -0.5d,
+	y: -2.0d,
+	shape: "circle",
+	description: "{Chapter10.UsfulOddities.Subtitle}",
+	tasks: [{
+		uid: "e48feb55",
+		type: "checkmark"
+	}],
+	rewards: [{
+		uid: "71945651",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

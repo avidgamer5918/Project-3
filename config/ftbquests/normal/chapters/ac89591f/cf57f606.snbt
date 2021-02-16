@@ -1,0 +1,19 @@
+{
+	x: -1.0d,
+	y: 6.0d,
+	dependencies: [
+		"defcbc81"
+	],
+	tasks: [{
+		uid: "488da5c8",
+		type: "item",
+		items: [{
+			item: "extrautils2:opinium 1 5"
+		}]
+	}],
+	rewards: [{
+		uid: "8cf15f5b",
+		type: "item",
+		item: "extrautils2:drum 1 3"
+	}]
+}

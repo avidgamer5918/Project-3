@@ -1,0 +1,27 @@
+{
+	title: "Gelid Enderium Dust",
+	x: -2.0d,
+	y: 3.0d,
+	description: "{Chapter7.GelidEnderiumDust.Subtitle}",
+	dependencies: [
+		"8befdc48"
+	],
+	tasks: [{
+		uid: "30d72587",
+		type: "item",
+		items: [{
+			item: "redstonerepository:material"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "068e5e0d",
+		type: "item",
+		item: {
+			id: "redstonerepository:capacitor_gelid",
+			tag: {
+				Energy: 0
+			}
+		}
+	}]
+}

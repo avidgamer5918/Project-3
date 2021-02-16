@@ -11,16 +11,23 @@
     "casings_decorative": [
         "modularmachinery:blockcasing"
     ],
-    "casings_fluid": [
-        "modularmachinery:blockfluidinputhatch",
+    "casings_fluid_output": [
         "modularmachinery:blockfluidoutputhatch"
     ],
-    "casings_energy": [
-        "modularmachinery:blockenergyinputhatch",
+    "casings_fluid_input": [
+        "modularmachinery:blockfluidinputhatch"
+    ],
+    "casings_energy_input": [
+        "modularmachinery:blockenergyinputhatch"
+    ],
+    "casings_energy_output": [
         "modularmachinery:blockenergyoutputhatch"
     ],
-    "casings_item": [
-        "modularmachinery:blockinputbus",
+    "casings_item_input": [
+        "modularmachinery:blockinputbus"
+    ],
+    "casings_item_output": [
         "modularmachinery:blockoutputbus"
     ]
+
 }

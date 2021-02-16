@@ -1,0 +1,29 @@
+{
+	icon: "actuallyadditions:block_empowerer",
+	x: -1.0d,
+	y: -2.0d,
+	description: "{Chapter5.Empowerer.Subtitle}",
+	dependencies: [
+		"886b597b"
+	],
+	tasks: [{
+		uid: "585d97ef",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_empowerer"
+		}]
+	},
+	{
+		uid: "6910b299",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_display_stand"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "59a74fa7",
+		type: "item",
+		item: "actuallyadditions:block_phantomface"
+	}]
+}

@@ -1,0 +1,37 @@
+{
+	icon: "mekanism:machineblock 1 12",
+	x: -1.0d,
+	y: 4.0d,
+	description: "{Chapter7.ElectricPump.Subtitle}",
+	dependencies: [
+		"56486a03"
+	],
+	tasks: [{
+		uid: "69a41c6b",
+		type: "item",
+		items: [{
+			item: "mekanism:machineblock 1 12"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7982888c",
+		type: "item",
+		items: [{
+			item: "mekanism:filterupgrade"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "0b8013c5",
+		type: "item",
+		item: {
+			id: "mekanism:machineblock2",
+			tag: {
+				tier: 1
+			},
+			Damage: 11s
+		}
+	}]
+}

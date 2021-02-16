@@ -1,0 +1,22 @@
+{
+	title: "Aareward2",
+	loot_size: 1,
+	rewards: [{
+		item: "actuallyadditions:block_crystal"
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 1"
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 2"
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 3"
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 4"
+	},
+	{
+		item: "actuallyadditions:block_crystal 1 5"
+	}]
+}

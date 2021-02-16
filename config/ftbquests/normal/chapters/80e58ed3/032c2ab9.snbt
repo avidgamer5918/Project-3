@@ -1,0 +1,23 @@
+{
+	title: "Creative Challenges ",
+	x: 0.0d,
+	y: -6.5d,
+	shape: "rsquare",
+	description: "{Chapter9.CreativeChallenges.Subtitle}",
+	dependencies: [
+		"6ccfe66f",
+		"21ad4afc",
+		"97629f61",
+		"5eb19e15",
+		"55075ac3",
+		"44ccc189",
+		"d61e4048",
+		"e8e79ce0",
+		"a24658fe",
+		"7976547f"
+	],
+	tasks: [{
+		uid: "caa706ff",
+		type: "checkmark"
+	}]
+}

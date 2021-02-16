@@ -1,0 +1,61 @@
+{
+	icon: "magneticraft:oil_heater",
+	x: -13.0d,
+	y: -13.0d,
+	description: "{Chapter1.OilHeater.Subtitle}",
+	dependencies: [
+		"6a5c556f"
+	],
+	tasks: [{
+		uid: "4a023276",
+		type: "item",
+		items: [{
+			item: "magneticraft:oil_heater"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "fe50443b",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_column"
+		}],
+		count: 14L,
+		consume_items: true
+	},
+	{
+		uid: "52c7438d",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 5"
+		}],
+		count: 12L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "fed12917",
+		type: "item",
+		item: "bhc:red_heart_canister"
+	},
+	{
+		uid: "94db1724",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				color: 10076989,
+				size: 3,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "minecraft:config/capsule/rewards/oilheater",
+				author: "Avidgamer5918",
+				display: {
+					color: 8072841
+				},
+				label: "oilheater",
+				canRotate: 0b
+			},
+			Damage: 5s
+		}
+	}]
+}

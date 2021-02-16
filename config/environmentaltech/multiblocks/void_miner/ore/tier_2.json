@@ -196,11 +196,6 @@
       "id": "OD:oreApatite"
     },
     {
-      "target": "purple",
-      "weight": 142,
-      "id": "draconicevolution:draconium_ore"
-    },
-    {
       "target": "black",
       "weight": 190,
       "id": "OD:oreGraphite"
@@ -247,7 +242,7 @@
     },
     {
       "target": "black",
-      "weight": 192,
+      "weight": 235,
       "id": "OD:oreTungsten"
     },
     {
@@ -259,11 +254,6 @@
       "target": "white",
       "weight": 160,
       "id": "OD:oreSalt"
-    },
-    {
-      "target": "white",
-      "weight": 127,
-      "id": "rftools:dimensional_shard_ore"
     },
     {
       "target": "green",

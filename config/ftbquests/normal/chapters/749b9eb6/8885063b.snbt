@@ -1,0 +1,57 @@
+{
+	icon: "rftoolsdim:dimension_enscriber",
+	x: 0.0d,
+	y: 2.0d,
+	description: "{Chapter6.DimensionEnscriber.Subtitle}",
+	dependencies: [
+		"a585816d"
+	],
+	tasks: [{
+		uid: "9d7b3b90",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:dimension_enscriber"
+		}]
+	},
+	{
+		uid: "dc46ffea",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:dimension_builder"
+		}]
+	},
+	{
+		uid: "59c6330f",
+		type: "item",
+		items: [{
+			item: "rftoolsdim:dimlet_workbench"
+		}]
+	},
+	{
+		uid: "0fb822bf",
+		type: "item",
+		items: [{
+			item: "rftools:matter_transmitter"
+		}]
+	},
+	{
+		uid: "2c1cdcce",
+		type: "item",
+		items: [{
+			item: "rftools:matter_receiver"
+		}]
+	},
+	{
+		uid: "7fbf6be3",
+		type: "item",
+		items: [{
+			item: "rftools:dialing_device"
+		}]
+	}],
+	rewards: [{
+		uid: "f21ed235",
+		type: "item",
+		item: "rftoolsdim:dimlet_parcel",
+		count: 64
+	}]
+}

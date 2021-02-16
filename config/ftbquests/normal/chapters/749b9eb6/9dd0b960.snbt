@@ -1,0 +1,201 @@
+{
+	title: "Cracking Station",
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:cracking_station"
+		}
+	},
+	x: 0.0d,
+	y: -2.0d,
+	description: "{Chapter6.CrackingStation.Subtitle}",
+	dependencies: [
+		"d182385f"
+	],
+	tasks: [{
+		uid: "55ef17ef",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 1 7"
+		}],
+		count: 10L,
+		consume_items: true
+	},
+	{
+		uid: "0cdc7048",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:sheetmetal 1 1"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "a08210c2",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockenergyinputhatch"
+		},
+		{
+			item: "modularmachinery:blockenergyinputhatch 1 1"
+		},
+		{
+			item: "modularmachinery:blockenergyinputhatch 1 2"
+		},
+		{
+			item: "modularmachinery:blockenergyinputhatch 1 3"
+		},
+		{
+			item: "modularmachinery:blockenergyinputhatch 1 4"
+		},
+		{
+			item: "modularmachinery:blockenergyinputhatch 1 5"
+		},
+		{
+			item: "modularmachinery:blockenergyinputhatch 1 6"
+		},
+		{
+			item: "modularmachinery:blockenergyinputhatch 1 7"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "01ba9e07",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration2 1 3"
+		}],
+		count: 10L,
+		consume_items: true
+	},
+	{
+		uid: "ecc60699",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 6"
+		}],
+		count: 5L,
+		consume_items: true
+	},
+	{
+		uid: "15439bfd",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch"
+		},
+		{
+			item: "modularmachinery:blockfluidinputhatch 1 1"
+		},
+		{
+			item: "modularmachinery:blockfluidinputhatch 1 2"
+		},
+		{
+			item: "modularmachinery:blockfluidinputhatch 1 3"
+		},
+		{
+			item: "modularmachinery:blockfluidinputhatch 1 4"
+		},
+		{
+			item: "modularmachinery:blockfluidinputhatch 1 5"
+		},
+		{
+			item: "modularmachinery:blockfluidinputhatch 1 6"
+		},
+		{
+			item: "modularmachinery:blockfluidinputhatch 1 7"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "9ceb44e8",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidoutputhatch"
+		},
+		{
+			item: "modularmachinery:blockfluidoutputhatch 1 1"
+		},
+		{
+			item: "modularmachinery:blockfluidoutputhatch 1 2"
+		},
+		{
+			item: "modularmachinery:blockfluidoutputhatch 1 3"
+		},
+		{
+			item: "modularmachinery:blockfluidoutputhatch 1 4"
+		},
+		{
+			item: "modularmachinery:blockfluidoutputhatch 1 5"
+		},
+		{
+			item: "modularmachinery:blockfluidoutputhatch 1 6"
+		},
+		{
+			item: "modularmachinery:blockfluidoutputhatch 1 7"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "820cd760",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "750e595c",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:cracking_station"
+			}
+		},
+		count: 2
+	},
+	{
+		uid: "824dd4c8",
+		type: "item",
+		item: {
+			id: "thermalexpansion:cell",
+			tag: {
+				Recv: 1000,
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					2b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				],
+				Level: 0b,
+				Send: 1000
+			}
+		}
+	},
+	{
+		uid: "1311d3fb",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				color: 8072841,
+				size: 5,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "minecraft:config/capsule/rewards/crackingstation",
+				author: "Avidgamer5918",
+				display: {
+					color: 5544791
+				},
+				label: "crackingstation",
+				canRotate: 0b
+			},
+			Damage: 5s
+		}
+	}]
+}

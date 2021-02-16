@@ -1,0 +1,24 @@
+{
+	x: -0.5d,
+	y: -5.0d,
+	shape: "circle",
+	description: "{Chapter10.NatureCompass.Subtitle}",
+	hide_dependency_lines: true,
+	dependencies: [
+		"3a0eeb58"
+	],
+	tasks: [{
+		uid: "8ba3fa60",
+		type: "item",
+		items: [{
+			id: "naturescompass:naturescompass",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5db80e57",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

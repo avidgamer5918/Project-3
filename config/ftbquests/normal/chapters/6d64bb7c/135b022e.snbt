@@ -1,0 +1,30 @@
+{
+	title: "Industrial Research",
+	icon: "techreborn:solid_fuel_generator",
+	x: 0.0d,
+	y: 1.0d,
+	description: "{Chapter2.IndustrialResearch.Subtitle}",
+	tasks: [{
+		uid: "b817f990",
+		type: "fluid",
+		fluid: "gasoline",
+		amount: 20000
+	},
+	{
+		uid: "b44c710e",
+		type: "fluid",
+		fluid: "diesel",
+		amount: 20000
+	},
+	{
+		uid: "6307effe",
+		type: "fluid",
+		fluid: "kerosene",
+		amount: 20000
+	}],
+	rewards: [{
+		uid: "00235ed3",
+		type: "item",
+		item: "contenttweaker:industrial_discovery"
+	}]
+}

@@ -1,0 +1,24 @@
+{
+	x: 8.5d,
+	y: 2.5d,
+	description: "{Chapter8.BasicEnergyEMCLink.Subtitle}",
+	hide_dependency_lines: true,
+	dependencies: [
+		"6ccfe66f"
+	],
+	tasks: [{
+		uid: "a96b1a1b",
+		type: "item",
+		items: [{
+			item: "projectex:energy_link"
+		}]
+	}],
+	rewards: [{
+		uid: "76964061",
+		type: "item",
+		item: {
+			id: "projecte:item.pe_klein_star",
+			tag: {}
+		}
+	}]
+}

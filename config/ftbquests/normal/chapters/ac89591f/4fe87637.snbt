@@ -1,0 +1,30 @@
+{
+	title: "Awakened ",
+	x: 2.0d,
+	y: 1.0d,
+	description: "{Chapter7.Awakened.Subtitle}",
+	dependencies: [
+		"eed361fc"
+	],
+	tasks: [{
+		uid: "00dbb18a",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_block"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "24be55fd",
+		type: "item",
+		item: {
+			id: "minecraft:enchanted_book",
+			tag: {
+				StoredEnchantments: [{
+					lvl: 3s,
+					id: 11s
+				}]
+			}
+		}
+	}]
+}

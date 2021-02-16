@@ -1,0 +1,39 @@
+{
+	title: "SmelteryReward",
+	loot_size: 1,
+	rewards: [{
+		item: "tconstruct:cast_custom"
+	},
+	{
+		item: {
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:sharpening_kit"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:pick_head"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:tool_rod"
+			}
+		}
+	},
+	{
+		item: {
+			id: "tconstruct:cast",
+			tag: {
+				PartType: "tconstruct:binding"
+			}
+		}
+	}]
+}

@@ -1,0 +1,98 @@
+{
+	"rules": [
+	  {
+		"match": {
+		  "blocks": {
+			"blocks": [
+			  "projectred-exploration:ore:2"
+			]
+		  }
+		},
+		"drops": [
+		  {
+			"item": {
+			  "items": [
+				"techreborn:gem:2"
+			  ],
+			  "quantity": {
+				"min": 1,
+				"max": 1
+			  }
+			}
+		  },
+		  {
+			"selector": {
+			  "weight": {
+				"value": 10
+			  },
+			  "fortuneLevelRequired": 1
+			},
+			"item": {
+				"items": [
+					"techreborn:gem:2"
+				],
+				"quantity": {
+					"min": 1,
+					"max": 2
+				}
+			}
+		},
+		{
+			"selector":{
+				"weight":{
+					"value": 100
+				},
+				"fortuneLevelRequired":2
+			},
+			"item":{
+				"items":[
+					"techreborn:gem:2"
+				],
+				"quantity":{
+					"min": 1,
+					"max": 3
+				}
+			}
+		},
+		{
+			"selector":{
+				"weight":{
+					"value":1000
+				},
+				"fortuneLevelRequired":3
+			},
+			"item":{
+				"items":[
+					"techreborn:gem:2"
+				],
+				"quantity":{
+					"min":1,
+					"max":4
+				}
+			}
+		},
+		{
+			"selector": {
+            "silktouch": "REQUIRED"
+          },
+          "item": {
+            "items" : [
+              "projectred-exploration:ore:2"
+            ]
+				}
+			}
+		]
+}
+]
+}
+
+
+				
+				
+				
+				
+			
+
+						
+						  
+

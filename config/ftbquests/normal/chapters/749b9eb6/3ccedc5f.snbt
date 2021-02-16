@@ -1,0 +1,53 @@
+{
+	icon: "techreborn:fusion_control_computer",
+	x: -1.0d,
+	y: 1.0d,
+	description: "{Chapter6.FusionControlComputer.Subtitle}",
+	dependencies: [
+		"a585816d"
+	],
+	tasks: [{
+		uid: "cae96b87",
+		type: "item",
+		items: [{
+			item: "techreborn:fusion_control_computer"
+		}]
+	},
+	{
+		uid: "e83d93bf",
+		type: "item",
+		items: [{
+			item: "techreborn:fusion_coil"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "9b4bd4ea",
+		type: "item",
+		item: "thermaldynamics:duct_0 1 2",
+		count: 16
+	},
+	{
+		uid: "d7b4e1c3",
+		type: "item",
+		item: {
+			id: "thermalexpansion:cell",
+			tag: {
+				Recv: 1000,
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					2b,
+					1b,
+					1b,
+					1b,
+					1b,
+					1b
+				],
+				Level: 0b,
+				Send: 1000
+			}
+		}
+	}]
+}

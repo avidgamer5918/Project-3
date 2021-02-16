@@ -1,0 +1,20 @@
+{
+	title: "Advanced Tech",
+	x: 0.0d,
+	y: -3.0d,
+	shape: "rsquare",
+	description: "{Chapter6.AdvancedTech.Subtitle}",
+	dependencies: [
+		"8a6e3f6e"
+	],
+	tasks: [{
+		uid: "fa89e647",
+		type: "checkmark",
+		title: "Advanced Tech "
+	}],
+	rewards: [{
+		uid: "9bbfca53",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

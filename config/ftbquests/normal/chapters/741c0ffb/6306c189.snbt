@@ -1,0 +1,22 @@
+{
+	title: "Treated Wood",
+	x: -4.0d,
+	y: -1.0d,
+	description: "{Chapter4.TreatedWood.Subtitle}",
+	dependencies: [
+		"3e6ec720"
+	],
+	tasks: [{
+		uid: "e4c9e2d5",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:treated_wood"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "76e80ced",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

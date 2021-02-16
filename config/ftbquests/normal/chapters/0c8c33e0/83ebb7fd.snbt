@@ -1,0 +1,31 @@
+{
+	title: "Scanner",
+	icon: {
+		id: "scannable:scanner",
+		tag: {
+			energy: 5000
+		}
+	},
+	x: -0.5d,
+	y: -3.0d,
+	shape: "circle",
+	description: "{Chapter1.Scanner.Subtitle}",
+	hide_dependency_lines: true,
+	dependencies: [
+		"3a0eeb58"
+	],
+	tasks: [{
+		uid: "4907ec7d",
+		type: "item",
+		items: [{
+			item: "scannable:scanner"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "35c7045d",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

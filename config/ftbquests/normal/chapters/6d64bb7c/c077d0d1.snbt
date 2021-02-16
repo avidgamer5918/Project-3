@@ -1,0 +1,59 @@
+{
+	title: "Better Armor Research",
+	icon: "conarm:book",
+	x: 1.0d,
+	y: 0.0d,
+	shape: "circle",
+	description: "{Chapter2.BetterArmorResearch.Subtitle}",
+	dependencies: [
+		"d1d71e85"
+	],
+	tasks: [{
+		uid: "025eeef7",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials 1 9"
+		}],
+		count: 8L,
+		consume_items: true
+	},
+	{
+		uid: "d9a36552",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials 1 10"
+		}],
+		count: 8L,
+		consume_items: true
+	},
+	{
+		uid: "73221bb5",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials 1 11"
+		}],
+		count: 8L,
+		consume_items: true
+	},
+	{
+		uid: "431f58e4",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials 1 19"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "cc5bd147",
+		type: "item",
+		items: [{
+			item: "tconstruct:materials 1 16"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "61f16532",
+		type: "item",
+		item: "contenttweaker:conarm_discovery"
+	}]
+}

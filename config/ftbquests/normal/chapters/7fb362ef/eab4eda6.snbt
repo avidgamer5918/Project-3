@@ -1,0 +1,24 @@
+{
+	title: "Tool Upgrade",
+	x: -8.0d,
+	y: -12.0d,
+	description: "{Chapter1.Toolupgrade.Subtitle}",
+	dependencies: [
+		"5e6f8cd8"
+	],
+	tasks: [{
+		uid: "b86a36eb",
+		type: "item",
+		items: [{
+			id: "tconstruct:pick_head",
+			tag: {
+				Material: "alumite"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "2cdaee04",
+		type: "item",
+		item: "tconstruct:materials 1 14"
+	}]
+}

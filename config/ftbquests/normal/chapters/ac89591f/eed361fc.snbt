@@ -1,0 +1,28 @@
+{
+	title: "Infusion Crafting Pt. 2",
+	x: 2.0d,
+	y: 0.0d,
+	description: "{Chapter7.InfusionCraftionPt2.Subtitle}",
+	dependencies: [
+		"09b19a70"
+	],
+	tasks: [{
+		uid: "4cada500",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector 1 1"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "4c512ef0",
+		type: "item",
+		item: "draconicevolution:energy_crystal",
+		count: 4
+	},
+	{
+		uid: "1bf204c3",
+		type: "item",
+		item: "draconicevolution:crystal_binder"
+	}]
+}

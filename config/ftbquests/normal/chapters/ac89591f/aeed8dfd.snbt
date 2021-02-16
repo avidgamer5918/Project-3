@@ -1,0 +1,21 @@
+{
+	x: 1.0d,
+	y: 5.0d,
+	hide_dependency_lines: true,
+	dependencies: [
+		"1a62f9f0"
+	],
+	tasks: [{
+		uid: "ac74a85a",
+		type: "item",
+		items: [{
+			item: "extrautils2:opinium 1 1"
+		}]
+	}],
+	rewards: [{
+		uid: "98a40ab3",
+		type: "item",
+		item: "extrautils2:ingredients 1 6",
+		count: 4
+	}]
+}

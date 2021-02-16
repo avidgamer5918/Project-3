@@ -1,0 +1,42 @@
+{
+	title: "Veinminer Research",
+	icon: "minecraft:iron_pickaxe",
+	x: -1.0d,
+	y: 1.0d,
+	shape: "circle",
+	dependencies: [
+		"d1d71e85"
+	],
+	tasks: [{
+		uid: "7d78bc4b",
+		type: "item",
+		items: [{
+			item: "tconstruct:ingots"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "87d5fbc9",
+		type: "item",
+		items: [{
+			item: "tconstruct:ingots 1 1"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "efa08ff6",
+		type: "item",
+		items: [{
+			item: "tconstruct:ingots 1 2"
+		}],
+		count: 32L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "84340098",
+		type: "item",
+		item: "contenttweaker:vienminer_discovery"
+	}]
+}

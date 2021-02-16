@@ -1,0 +1,23 @@
+{
+	title: "Blast Furnace",
+	x: -3.0d,
+	y: -1.0d,
+	description: "{Chapter4.BlastFurnace.Subtitle}",
+	dependencies: [
+		"3e6ec720"
+	],
+	tasks: [{
+		uid: "653ef2e3",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:stone_decoration 1 1"
+		}],
+		count: 27L
+	}],
+	rewards: [{
+		uid: "7a9219f4",
+		type: "item",
+		item: "minecraft:coal",
+		count: 16
+	}]
+}

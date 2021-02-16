@@ -1,0 +1,88 @@
+{
+	title: "Nuclear Fuel Challenge",
+	icon: "nuclearcraft:fuel_californium",
+	x: 0.0d,
+	y: -4.5d,
+	shape: "circle",
+	dependencies: [
+		"6ccfe66f",
+		"21ad4afc",
+		"97629f61",
+		"5eb19e15",
+		"55075ac3",
+		"44ccc189",
+		"d61e4048",
+		"e8e79ce0",
+		"a24658fe",
+		"7976547f",
+		"c523873e"
+	],
+	tasks: [{
+		uid: "84a7fa01",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fuel_thorium"
+		}],
+		count: 100L,
+		consume_items: true
+	},
+	{
+		uid: "0ac09fa6",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fuel_uranium"
+		}],
+		count: 100L,
+		consume_items: true
+	},
+	{
+		uid: "f21d4fa0",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fuel_plutonium"
+		}],
+		count: 50L,
+		consume_items: true
+	},
+	{
+		uid: "8744b586",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fuel_americium"
+		}],
+		count: 10L,
+		consume_items: true
+	},
+	{
+		uid: "a58f9c0f",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fuel_curium"
+		}],
+		count: 10L,
+		consume_items: true
+	},
+	{
+		uid: "f0eade36",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fuel_berkelium"
+		}],
+		count: 10L,
+		consume_items: true
+	},
+	{
+		uid: "8062f62c",
+		type: "item",
+		items: [{
+			item: "nuclearcraft:fuel_californium"
+		}],
+		count: 10L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "e0677429",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

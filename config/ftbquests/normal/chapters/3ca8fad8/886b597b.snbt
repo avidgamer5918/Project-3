@@ -1,0 +1,20 @@
+{
+	x: -1.0d,
+	y: -3.0d,
+	description: "{Chapter5.AtomicReconstructor.Subtitle}",
+	dependencies: [
+		"adf603c1"
+	],
+	tasks: [{
+		uid: "d030ab66",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_atomic_reconstructor"
+		}]
+	}],
+	rewards: [{
+		uid: "942b51b3",
+		type: "item",
+		item: "actuallyadditions:item_color_lens"
+	}]
+}

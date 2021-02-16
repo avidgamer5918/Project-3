@@ -1,0 +1,38 @@
+{
+	title: "The Path To Draconium",
+	icon: "thermalfoundation:material 1 1028",
+	x: 2.0d,
+	y: 2.0d,
+	description: "{Chapter7.ThePathToDraconium.Subtitle}",
+	dependencies: [
+		"a3ce7ea1"
+	],
+	tasks: [{
+		uid: "e30a6524",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 1028"
+		}],
+		count: 8L
+	},
+	{
+		uid: "9281b308",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 103"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "b75dcfc9",
+		type: "item",
+		item: {
+			id: "thermalexpansion:tank",
+			tag: {
+				RSControl: 0b,
+				Creative: 0b,
+				Level: 1b
+			}
+		}
+	}]
+}

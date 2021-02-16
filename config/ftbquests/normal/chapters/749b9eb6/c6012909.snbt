@@ -1,0 +1,19 @@
+{
+	title: "Environmental Tech Crystals ",
+	x: 2.0d,
+	y: 1.0d,
+	description: "{Chapter6.EnvironmentalTechCrystals.Subtitle}",
+	dependencies: [
+		"946830c4"
+	],
+	tasks: [{
+		uid: "a2caf714",
+		type: "checkmark",
+		icon: "environmentaltech:litherite_crystal"
+	}],
+	rewards: [{
+		uid: "44c3d107",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

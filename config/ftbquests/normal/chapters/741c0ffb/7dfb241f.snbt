@@ -1,0 +1,76 @@
+{
+	title: "Refinery",
+	icon: {
+		id: "forge:bucketfilled",
+		tag: {
+			FluidName: "biodiesel",
+			Amount: 1000
+		}
+	},
+	x: -4.0d,
+	y: 2.0d,
+	description: "{Chapter4.RefineryIE.Subtitle}",
+	dependencies: [
+		"cf2fc372"
+	],
+	tasks: [{
+		uid: "04a1df55",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 1 1"
+		}],
+		count: 8L
+	},
+	{
+		uid: "830f3cdb",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 6"
+		}],
+		count: 5L
+	},
+	{
+		uid: "ffee08ff",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	},
+	{
+		uid: "066f470b",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 4"
+		}],
+		count: 2L
+	},
+	{
+		uid: "8df7e428",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 5"
+		}],
+		count: 2L
+	},
+	{
+		uid: "5956395c",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:sheetmetal 1 9"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "928b054a",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				Parent: {
+					Size: 1,
+					Items: []
+				}
+			},
+			id: "immersiveengineering:railgun"
+		}
+	}]
+}

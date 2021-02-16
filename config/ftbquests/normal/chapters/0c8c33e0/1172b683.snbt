@@ -1,0 +1,27 @@
+{
+	x: 1.5d,
+	y: -2.0d,
+	shape: "circle",
+	description: "{Chapter10.IChisel.Subtitle}",
+	hide_dependency_lines: true,
+	dependencies: [
+		"3a0eeb58"
+	],
+	tasks: [{
+		uid: "adfb1aa2",
+		type: "item",
+		items: [{
+			id: "chisel:chisel_hitech",
+			tag: {
+				chiseldata: {}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "af6e42c2",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

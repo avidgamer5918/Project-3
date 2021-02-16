@@ -1,0 +1,20 @@
+{
+	x: 3.0d,
+	y: -1.0d,
+	dependencies: [
+		"37c7bf06"
+	],
+	tasks: [{
+		uid: "274efeac",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_fuel 1 1"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "e70f9f70",
+		type: "item",
+		item: "projecte:item.pe_black_hole"
+	}]
+}

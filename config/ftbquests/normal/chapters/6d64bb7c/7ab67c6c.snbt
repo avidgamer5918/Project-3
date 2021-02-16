@@ -1,0 +1,93 @@
+{
+	title: "Late Game Research",
+	icon: {
+		id: "projecte:item.pe_philosophers_stone",
+		tag: {}
+	},
+	x: 0.0d,
+	y: 5.0d,
+	description: "{Chapter2.LateGameResearch.Subtitle}",
+	dependencies: [
+		"c96ebe57"
+	],
+	tasks: [{
+		uid: "fc20d856",
+		type: "item",
+		items: [{
+			item: "redstonearsenal:material 1 32"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "cd81aa7f",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_endergy_ingot 1 3"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "bdd5e958",
+		type: "item",
+		items: [{
+			item: "extrautils2:opinium 1 8"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "8564b82d",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconic_core"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "b7f76902",
+		type: "item",
+		items: [{
+			item: "draconicevolution:wyvern_core"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "b6806774",
+		type: "item",
+		items: [{
+			item: "draconicevolution:awakened_core"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "b6bb10cc",
+		type: "fluid",
+		fluid: "liquidfusionfuel",
+		amount: 16000
+	},
+	{
+		uid: "e962b50a",
+		type: "item",
+		items: [{
+			item: "redstonerepository:material 1 1"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "a6699344",
+		type: "kill",
+		icon: "draconicevolution:chaos_shard",
+		entity: "draconicevolution:chaosguardian",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "b91a2db8",
+		type: "item",
+		item: "contenttweaker:late_game_discovery"
+	}]
+}

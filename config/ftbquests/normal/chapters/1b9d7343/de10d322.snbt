@@ -1,0 +1,19 @@
+{
+	x: 5.0d,
+	y: 7.5d,
+	dependencies: [
+		"420db3ec"
+	],
+	tasks: [{
+		uid: "9a1b2312",
+		type: "item",
+		items: [{
+			item: "projectex:power_flower 1 9"
+		}]
+	}],
+	rewards: [{
+		uid: "c93bcb92",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

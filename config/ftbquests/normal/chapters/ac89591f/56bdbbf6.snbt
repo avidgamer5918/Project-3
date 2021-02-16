@@ -1,0 +1,29 @@
+{
+	title: "Dark Steel",
+	x: 1.0d,
+	y: 4.0d,
+	description: "{Chapter7.DarkSteel.Subtitle}",
+	dependencies: [
+		"56486a03"
+	],
+	tasks: [{
+		uid: "7b19cc5b",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_ingot 1 6"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "07afa3d9",
+		type: "item",
+		item: {
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:energyupgrade",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}
+	}]
+}

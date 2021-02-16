@@ -1,0 +1,61 @@
+{
+	icon: "tconstruct:smeltery_controller",
+	x: -9.0d,
+	y: -12.0d,
+	description: "{Chapter1.SmelteryController.Subtitle}",
+	dependencies: [
+		"ccbcd8f5"
+	],
+	tasks: [{
+		uid: "86811eec",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	},
+	{
+		uid: "0c7fc7a7",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting"
+		}]
+	},
+	{
+		uid: "bcdbcc10",
+		type: "item",
+		items: [{
+			item: "tconstruct:casting 1 1"
+		}]
+	},
+	{
+		uid: "afbed2a7",
+		type: "item",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	},
+	{
+		uid: "e28e09b7",
+		type: "item",
+		items: [{
+			item: "tconstruct:faucet"
+		}]
+	},
+	{
+		uid: "dcbe10ba",
+		type: "item",
+		items: [{
+			item: "tconstruct:smeltery_io"
+		}]
+	}],
+	rewards: [{
+		uid: "539cc616",
+		type: "choice",
+		table: 1
+	},
+	{
+		uid: "b836de4f",
+		type: "item",
+		item: "tconstruct:tooltables 1 4"
+	}]
+}

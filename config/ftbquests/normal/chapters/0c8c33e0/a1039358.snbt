@@ -1,0 +1,70 @@
+{
+	x: -0.5d,
+	y: -1.0d,
+	shape: "circle",
+	description: "{Chapter10.CulinaryConstruct.Subtitle}",
+	hide_dependency_lines: true,
+	dependencies: [
+		"3a0eeb58"
+	],
+	tasks: [{
+		uid: "7cdcd82a",
+		type: "item",
+		items: [{
+			item: "culinaryconstruct:sandwich_station"
+		}]
+	}],
+	rewards: [{
+		uid: "13c4f91c",
+		type: "item",
+		item: {
+			id: "culinaryconstruct:sandwich",
+			tag: {
+				Size: 5,
+				Saturation: 0.36f,
+				Ingredients: {
+					Items: [{
+						Slot: 0b,
+						id: "minecraft:bread",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 1b,
+						id: "minecraft:bread",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 2b,
+						id: "minecraft:bread",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 3b,
+						id: "minecraft:bread",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 4b,
+						id: "minecraft:bread",
+						Count: 1b,
+						Damage: 0s
+					},
+					{
+						Slot: 5b,
+						id: "minecraft:bread",
+						Count: 1b,
+						Damage: 0s
+					}]
+				},
+				Bonus: -2,
+				Depth: 0,
+				Food: 10
+			}
+		},
+		count: 8
+	}]
+}

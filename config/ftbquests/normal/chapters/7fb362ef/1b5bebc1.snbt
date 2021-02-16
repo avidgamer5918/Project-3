@@ -1,0 +1,124 @@
+{
+	title: "First power",
+	icon: "magneticraft:steam_engine",
+	x: -13.0d,
+	y: -15.0d,
+	description: "{Chapter1.FirstPower.Subtitle}",
+	dependencies: [
+		"69c6f806"
+	],
+	tasks: [{
+		uid: "d3570844",
+		type: "item",
+		items: [{
+			item: "magneticraft:steam_engine"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "2d337bc9",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 4"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "98eaad4e",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_column"
+		}],
+		count: 2L,
+		consume_items: true
+	},
+	{
+		uid: "dd1fc598",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 2"
+		}],
+		count: 7L,
+		consume_items: true
+	},
+	{
+		uid: "6b745931",
+		type: "item",
+		items: [{
+			item: "minecraft:brick_block"
+		}],
+		count: 3L,
+		consume_items: true
+	},
+	{
+		uid: "17e58928",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 5"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "b3f1abf8",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts"
+		}],
+		count: 3L,
+		consume_items: true
+	},
+	{
+		uid: "a53358ca",
+		type: "item",
+		items: [{
+			item: "magneticraft:water_generator"
+		}]
+	},
+	{
+		uid: "4b176bae",
+		type: "item",
+		items: [{
+			item: "magneticraft:combustion_chamber"
+		}]
+	},
+	{
+		uid: "e2645018",
+		type: "item",
+		items: [{
+			item: "magneticraft:steam_boiler"
+		}]
+	}],
+	rewards: [{
+		uid: "ec176ec9",
+		type: "item",
+		item: "magneticraft:connector",
+		count: 8
+	},
+	{
+		uid: "123e1604",
+		type: "item",
+		item: "minecraft:coal 1 1",
+		count: 16
+	},
+	{
+		uid: "50aa17bb",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				color: 13421772,
+				size: 5,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "minecraft:config/capsule/rewards/smallsteamengine",
+				author: "Avidgamer5918",
+				display: {
+					color: 16777215
+				},
+				label: "smallsteamengine",
+				canRotate: 0b
+			},
+			Damage: 5s
+		}
+	}]
+}

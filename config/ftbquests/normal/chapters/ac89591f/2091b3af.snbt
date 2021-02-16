@@ -1,0 +1,36 @@
+{
+	title: "Melty Melty",
+	x: 0.0d,
+	y: 1.0d,
+	description: "{Chapter7.MeltyMelty.Subtitle}",
+	dependencies: [
+		"fafbfa25"
+	],
+	tasks: [{
+		uid: "f1fe97a6",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					1b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 6s
+		}]
+	}],
+	rewards: [{
+		uid: "e02f09d4",
+		type: "item",
+		item: "thermalfoundation:upgrade"
+	}]
+}

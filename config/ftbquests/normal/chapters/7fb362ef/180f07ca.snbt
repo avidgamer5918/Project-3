@@ -1,0 +1,48 @@
+{
+	x: -13.0d,
+	y: -17.0d,
+	shape: "rsquare",
+	description: "{Chapter1.Welcome.Subtitle}",
+	tasks: [{
+		uid: "f9885086",
+		type: "checkmark",
+		title: "Welcome.",
+		icon: "minecraft:writable_book"
+	}],
+	rewards: [{
+		uid: "93d84914",
+		type: "item",
+		item: "minecraft:apple",
+		count: 5
+	},
+	{
+		uid: "9ccdaf32",
+		type: "item",
+		item: {
+			id: "thermalexpansion:satchel",
+			tag: {
+				Accessible: 1b
+			}
+		}
+	},
+	{
+		uid: "05698e14",
+		type: "item",
+		item: "minecraft:leather_helmet"
+	},
+	{
+		uid: "672a038f",
+		type: "item",
+		item: "minecraft:leather_chestplate"
+	},
+	{
+		uid: "fc4ec6c5",
+		type: "item",
+		item: "minecraft:leather_leggings"
+	},
+	{
+		uid: "be62ebfd",
+		type: "item",
+		item: "minecraft:leather_boots"
+	}]
+}

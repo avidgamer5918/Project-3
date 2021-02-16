@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: 4.0d,
+	description: "{Chapter6.VoidOreMiner2.Subtitle}",
+	dependencies: [
+		"74fe8a07"
+	],
+	tasks: [{
+		uid: "99a4983e",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_ore_miner_cont_3"
+		}]
+	}],
+	rewards: [{
+		uid: "f8a68e76",
+		type: "item",
+		item: "bhc:green_heart"
+	}]
+}

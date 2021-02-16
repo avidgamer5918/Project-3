@@ -1,0 +1,19 @@
+{
+	x: -2.0d,
+	y: -3.0d,
+	shape: "rsquare",
+	description: "{Chapter4.Industrial.Subtitle}",
+	dependencies: [
+		"135b022e"
+	],
+	tasks: [{
+		uid: "d4ce3271",
+		type: "checkmark",
+		title: "Industrial"
+	}],
+	rewards: [{
+		uid: "19a369da",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

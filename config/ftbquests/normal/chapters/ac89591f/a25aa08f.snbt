@@ -1,0 +1,31 @@
+{
+	x: -4.0d,
+	y: 4.0d,
+	description: "{Chapter7.SolarNeutronActivator.Subtitle}",
+	dependencies: [
+		"9e0a564e"
+	],
+	tasks: [{
+		uid: "00202dc7",
+		type: "item",
+		items: [{
+			id: "mekanism:machineblock3",
+			tag: {
+				mekData: {
+					security: 0,
+					ownerUUID: "bcf120a8-e696-4a7c-aca0-10a45fb7aeb7",
+					controlType: 0,
+					Items: [],
+					upgrades: []
+				}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3c584e8b",
+		type: "item",
+		item: "mekanism:tierinstaller 1 2"
+	}]
+}

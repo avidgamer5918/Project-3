@@ -1,0 +1,27 @@
+{
+	title: "Infusion Crafting Pt. 1",
+	x: 1.0d,
+	y: 0.0d,
+	description: "{Chapter7.InfusionCraftionPt1.Subtitle}",
+	dependencies: [
+		"fafbfa25"
+	],
+	tasks: [{
+		uid: "ceb2968c",
+		type: "item",
+		items: [{
+			item: "draconicevolution:crafting_injector"
+		}],
+		count: 10L
+	}],
+	rewards: [{
+		uid: "6f9213f4",
+		type: "item",
+		item: "draconicevolution:dislocator"
+	},
+	{
+		uid: "b8662979",
+		type: "item",
+		item: "draconicevolution:dislocator_pedestal"
+	}]
+}

@@ -1,0 +1,43 @@
+{
+	title: "Ender Storage Research",
+	icon: "enderstorage:ender_storage",
+	x: -1.0d,
+	y: 2.0d,
+	shape: "circle",
+	description: "{Chapter2.EnderStorageResearch.Subtitle}",
+	dependencies: [
+		"b394feef"
+	],
+	tasks: [{
+		uid: "e409236e",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_pearl"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "f2696d57",
+		type: "item",
+		items: [{
+			item: "minecraft:ender_eye"
+		}],
+		count: 16L,
+		consume_items: true
+	},
+	{
+		uid: "ade94eb5",
+		type: "item",
+		items: [{
+			item: "contenttweaker:chorus_infused_enderpearl"
+		}],
+		count: 16L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "35732c31",
+		type: "item",
+		item: "contenttweaker:better_storage_discovery"
+	}]
+}

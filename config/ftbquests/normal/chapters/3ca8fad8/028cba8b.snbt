@@ -1,0 +1,32 @@
+{
+	icon: "actuallyadditions:block_canola_press",
+	x: -1.0d,
+	y: 0.0d,
+	description: "{Chapter5.CanolaPress.Subtitle}",
+	dependencies: [
+		"8f70a7b1"
+	],
+	tasks: [{
+		uid: "b7de6296",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_canola_press"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f4874f67",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_fermenting_barrel"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ca85d67a",
+		type: "item",
+		item: "actuallyadditions:block_ranged_collector"
+	}]
+}

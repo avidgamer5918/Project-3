@@ -1,0 +1,52 @@
+{
+	title: "Flight Research",
+	icon: "minecraft:elytra",
+	x: -1.0d,
+	y: 5.0d,
+	shape: "circle",
+	description: "{Chapter2.FlightResearch.Subtitle}",
+	dependencies: [
+		"0d3630e3"
+	],
+	tasks: [{
+		uid: "58908848",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:pristine_matter_wither"
+		}],
+		count: 8L,
+		consume_items: true
+	},
+	{
+		uid: "2da57fc2",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:pristine_matter_dragon"
+		}],
+		count: 8L,
+		consume_items: true
+	},
+	{
+		uid: "3005a838",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:pristine_matter_blaze"
+		}],
+		count: 8L,
+		consume_items: true
+	},
+	{
+		uid: "bc6ba9d4",
+		type: "item",
+		items: [{
+			item: "deepmoblearning:pristine_matter_ghast"
+		}],
+		count: 8L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "e738f109",
+		type: "item",
+		item: "contenttweaker:creative_flight_discovery"
+	}]
+}

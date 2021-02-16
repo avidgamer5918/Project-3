@@ -1,0 +1,30 @@
+{
+	title: "Laser Drill",
+	icon: "industrialforegoing:laser_drill",
+	x: 0.0d,
+	y: 1.0d,
+	description: "{Chapter6.LaserDrill.Subtitle}",
+	dependencies: [
+		"14e5f27c"
+	],
+	tasks: [{
+		uid: "1d0b31e6",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_drill"
+		}],
+		count: 4L
+	},
+	{
+		uid: "8ae17d2c",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:laser_base"
+		}]
+	}],
+	rewards: [{
+		uid: "94371b99",
+		type: "choice",
+		table: 12
+	}]
+}

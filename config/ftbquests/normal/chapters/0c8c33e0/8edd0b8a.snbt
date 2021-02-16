@@ -1,0 +1,58 @@
+{
+	title: "Chest Transporter",
+	icon: {
+		id: "chesttransporter:chesttransporter_diamond",
+		tag: {}
+	},
+	x: 0.5d,
+	y: -2.0d,
+	shape: "circle",
+	description: "{Chapter10.ChestTransporter.Subtitle}",
+	hide_dependency_lines: true,
+	dependencies: [
+		"3a0eeb58"
+	],
+	tasks: [{
+		uid: "4b2a77b4",
+		type: "item",
+		items: [{
+			id: "chesttransporter:chesttransporter",
+			tag: {}
+		},
+		{
+			id: "chesttransporter:chesttransporter_iron",
+			tag: {}
+		},
+		{
+			id: "chesttransporter:chesttransporter_gold",
+			tag: {}
+		},
+		{
+			id: "chesttransporter:chesttransporter_diamond",
+			tag: {}
+		},
+		{
+			id: "chesttransporter:chesttransporter_copper",
+			tag: {}
+		},
+		{
+			id: "chesttransporter:chesttransporter_silver",
+			tag: {}
+		},
+		{
+			id: "chesttransporter:chesttransporter_tin",
+			tag: {}
+		},
+		{
+			id: "chesttransporter:chesttransporter_obsidian",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6a920348",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

@@ -1,0 +1,30 @@
+{
+	title: "Trash cans",
+	icon: "extrautils2:trashcan",
+	x: -0.5d,
+	y: 1.0d,
+	shape: "circle",
+	description: "{Chapter10.Trashcans.Subtitle}",
+	hide_dependency_lines: true,
+	dependencies: [
+		"3a0eeb58"
+	],
+	tasks: [{
+		uid: "17cce984",
+		type: "item",
+		items: [{
+			item: "extrautils2:trashcan"
+		},
+		{
+			item: "extrautils2:trashcanfluid"
+		},
+		{
+			item: "extrautils2:trashcanenergy"
+		}]
+	}],
+	rewards: [{
+		uid: "a489bd11",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

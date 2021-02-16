@@ -1,0 +1,27 @@
+{
+	title: "Crystalized Canola Seeds",
+	x: -1.0d,
+	y: 1.0d,
+	description: "{Chapter5.CrystalizedCanolaSeeds.Subtitle}",
+	dependencies: [
+		"028cba8b"
+	],
+	tasks: [{
+		uid: "8a3f8700",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_misc 1 23"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "eae7641a",
+		type: "item",
+		item: {
+			id: "actuallyadditions:magnet_ring_bauble",
+			tag: {
+				Energy: 200000
+			}
+		}
+	}]
+}

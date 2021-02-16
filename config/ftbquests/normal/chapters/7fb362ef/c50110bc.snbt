@@ -1,0 +1,94 @@
+{
+	icon: "magneticraft:hydraulic_press",
+	x: -10.0d,
+	y: -15.0d,
+	description: "{Chapter1.HydraulicPress.Subtitle}",
+	dependencies: [
+		"a9efd6a2"
+	],
+	tasks: [{
+		uid: "0f1ea79a",
+		type: "item",
+		items: [{
+			item: "magneticraft:hydraulic_press"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "1685228a",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 2"
+		}],
+		count: 14L,
+		consume_items: true
+	},
+	{
+		uid: "f90178cf",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_column"
+		}],
+		count: 7L,
+		consume_items: true
+	},
+	{
+		uid: "57030f9d",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 4"
+		}],
+		count: 2L,
+		consume_items: true
+	},
+	{
+		uid: "ab86de10",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 3"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "35811f48",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 5"
+		}],
+		count: 2L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "4ae22f3c",
+		type: "item",
+		item: {
+			id: "buildinggadgets:buildingtool",
+			tag: {
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		}
+	},
+	{
+		uid: "78a7b20f",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				color: 5544791,
+				size: 5,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "minecraft:config/capsule/rewards/hydraulicpress",
+				author: "Avidgamer5918",
+				display: {
+					color: 4869306
+				},
+				label: "hydraulicpress",
+				canRotate: 0b
+			},
+			Damage: 5s
+		}
+	}]
+}

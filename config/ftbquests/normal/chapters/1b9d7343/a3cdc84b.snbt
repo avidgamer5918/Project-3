@@ -1,0 +1,24 @@
+{
+	x: 8.5d,
+	y: 3.5d,
+	description: "{Chapter8.PersonalEMCLink.Subtitle}",
+	dependencies: [
+		"005ed196"
+	],
+	tasks: [{
+		uid: "c4bc2258",
+		type: "item",
+		items: [{
+			item: "projectex:personal_link"
+		}]
+	}],
+	rewards: [{
+		uid: "2ce3c1bb",
+		type: "item",
+		item: {
+			id: "projecte:item.pe_klein_star",
+			tag: {},
+			Damage: 1s
+		}
+	}]
+}

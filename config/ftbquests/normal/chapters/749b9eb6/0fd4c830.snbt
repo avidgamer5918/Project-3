@@ -1,0 +1,37 @@
+{
+	title: "Pink Slime",
+	icon: "industrialforegoing:pink_slime",
+	x: 0.0d,
+	y: 0.0d,
+	description: "{Chapter6.PinkSlime.Subtitle}",
+	dependencies: [
+		"14e5f27c"
+	],
+	tasks: [{
+		uid: "83f0d712",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:ore_sieve"
+		}]
+	},
+	{
+		uid: "f9a6370d",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	},
+	{
+		uid: "1a4334f4",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:pink_slime"
+		}]
+	}],
+	rewards: [{
+		uid: "90933c21",
+		type: "item",
+		item: "darkutils:trap_move_fast",
+		count: 16
+	}]
+}

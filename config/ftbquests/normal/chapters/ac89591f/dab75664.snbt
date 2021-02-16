@@ -1,0 +1,29 @@
+{
+	title: "Melodic Alloy Ingot",
+	x: 3.0d,
+	y: 4.0d,
+	description: "{Chapter7.MelodicAlloyIngot.Subtitle}",
+	dependencies: [
+		"5b81da4b"
+	],
+	tasks: [{
+		uid: "a3e44340",
+		type: "item",
+		items: [{
+			item: "enderio:item_alloy_endergy_ingot 1 2"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "4cb2cf88",
+		type: "item",
+		item: {
+			id: "enderio:item_dark_steel_upgrade",
+			tag: {
+				"enderio:dsu": "enderio:energyupgrade2",
+				"enderio:enabled": 1b
+			},
+			Damage: 1s
+		}
+	}]
+}

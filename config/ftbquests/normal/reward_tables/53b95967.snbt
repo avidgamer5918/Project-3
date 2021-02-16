@@ -1,0 +1,24 @@
+{
+	title: "Aareward4",
+	loot_size: 1,
+	rewards: [{
+		item: "actuallyadditions:block_laser_relay_item"
+	},
+	{
+		item: "actuallyadditions:block_laser_relay"
+	},
+	{
+		item: "actuallyadditions:block_laser_relay_fluids"
+	},
+	{
+		item: "actuallyadditions:item_misc 1 7",
+		count: 4
+	},
+	{
+		item: "actuallyadditions:item_misc 1 8",
+		count: 2
+	},
+	{
+		item: "actuallyadditions:block_misc 1 9"
+	}]
+}

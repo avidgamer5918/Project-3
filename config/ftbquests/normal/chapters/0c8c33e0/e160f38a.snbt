@@ -1,0 +1,24 @@
+{
+	x: -0.5d,
+	y: 0.0d,
+	shape: "circle",
+	description: "{Chapter10.ForgeLexicon.Subtitle}",
+	hide_dependency_lines: true,
+	dependencies: [
+		"3a0eeb58"
+	],
+	tasks: [{
+		uid: "296972ea",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:tome_lexicon"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "1f32246e",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

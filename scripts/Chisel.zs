@@ -1,0 +1,1 @@
+mods.chisel.Carving.addVariation("limestone", <magneticraft:limestone>);

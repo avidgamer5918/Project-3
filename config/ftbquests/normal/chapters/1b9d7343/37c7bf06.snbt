@@ -1,0 +1,25 @@
+{
+	x: 2.0d,
+	y: -1.0d,
+	dependencies: [
+		"eccbd677"
+	],
+	tasks: [{
+		uid: "e507ddb1",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_fuel"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "1d61b0ea",
+		type: "item",
+		item: "projecte:item.pe_ring_iron_band"
+	},
+	{
+		uid: "4d948f1e",
+		type: "item",
+		item: "projecte:item.pe_alchemical_bag"
+	}]
+}

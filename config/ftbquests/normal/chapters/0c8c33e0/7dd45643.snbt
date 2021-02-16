@@ -1,0 +1,24 @@
+{
+	x: 0.5d,
+	y: -3.0d,
+	shape: "circle",
+	description: "{Chapter10.TapeMeasure.Subtitle}",
+	hide_dependency_lines: true,
+	dependencies: [
+		"3a0eeb58"
+	],
+	tasks: [{
+		uid: "d4df32d4",
+		type: "item",
+		items: [{
+			item: "chiselsandbits:tape_measure"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5ded8e36",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

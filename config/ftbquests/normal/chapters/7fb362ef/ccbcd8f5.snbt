@@ -1,0 +1,107 @@
+{
+	title: "Seared Smoker",
+	icon: {
+		id: "modularmachinery:itemblueprint",
+		tag: {
+			dynamicmachine: "modularmachinery:seared_smoker"
+		}
+	},
+	x: -9.5d,
+	y: -13.0d,
+	description: "{Chapter1.SearedSmoker.Subtitle}",
+	dependencies: [
+		"42ab6ad1"
+	],
+	tasks: [{
+		uid: "d5fe332f",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockcontroller"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "02a0cbe4",
+		type: "item",
+		items: [{
+			item: "tconstruct:dried_clay 1 1"
+		}],
+		count: 22L,
+		consume_items: true
+	},
+	{
+		uid: "0004fe1d",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockfluidinputhatch 1 1"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "c5cd44ce",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockinputbus 1 1"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "07b0e1e2",
+		type: "item",
+		items: [{
+			item: "modularmachinery:blockoutputbus 1 1"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "b5c67003",
+		type: "item",
+		items: [{
+			id: "ceramics:clay_bucket",
+			tag: {
+				fluids: {
+					FluidName: "lava",
+					Amount: 1000
+				}
+			}
+		}],
+		consume_items: true,
+		ignore_nbt: 2b
+	}],
+	rewards: [{
+		uid: "053172b4",
+		type: "item",
+		item: {
+			id: "modularmachinery:itemblueprint",
+			tag: {
+				dynamicmachine: "modularmachinery:seared_smoker"
+			}
+		}
+	},
+	{
+		uid: "c76fe733",
+		type: "item",
+		item: "chisel:chisel_iron"
+	},
+	{
+		uid: "943260e1",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				color: 7105644,
+				size: 3,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "minecraft:config/capsule/rewards/searedsmoker",
+				author: "Avidgamer5918",
+				display: {
+					color: 14714914
+				},
+				label: "searedsmoker",
+				canRotate: 0b
+			},
+			Damage: 5s
+		}
+	}]
+}

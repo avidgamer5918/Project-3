@@ -1,0 +1,134 @@
+{
+	title: "Advanced Mob Research",
+	icon: "deepmoblearning:deep_learner",
+	x: -1.0d,
+	y: 4.0d,
+	shape: "circle",
+	description: "{Chapter2.AdvancedMobResearch.Subtitle}",
+	dependencies: [
+		"8a6e3f6e"
+	],
+	tasks: [{
+		uid: "4ec044fd",
+		type: "item",
+		items: [{
+			id: "industrialforegoing:mob_imprisonment_tool",
+			tag: {
+				entity: "minecraft:skeleton"
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "729a389f",
+		type: "item",
+		items: [{
+			id: "industrialforegoing:mob_imprisonment_tool",
+			tag: {
+				entity: "minecraft:witch"
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "8b455ea3",
+		type: "item",
+		items: [{
+			id: "industrialforegoing:mob_imprisonment_tool",
+			tag: {
+				entity: "minecraft:zombie"
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "dc9e9fae",
+		type: "item",
+		items: [{
+			id: "industrialforegoing:mob_imprisonment_tool",
+			tag: {
+				entity: "minecraft:enderman"
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "0bd9fa9e",
+		type: "item",
+		items: [{
+			id: "industrialforegoing:mob_imprisonment_tool",
+			tag: {
+				entity: "minecraft:guardian"
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "70a34f81",
+		type: "item",
+		items: [{
+			id: "industrialforegoing:mob_imprisonment_tool",
+			tag: {
+				entity: "minecraft:ghast"
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "ae4e489c",
+		type: "item",
+		items: [{
+			id: "industrialforegoing:mob_imprisonment_tool",
+			tag: {
+				entity: "minecraft:blaze"
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "3b65d59e",
+		type: "item",
+		items: [{
+			id: "industrialforegoing:mob_imprisonment_tool",
+			tag: {
+				entity: "minecraft:wither_skeleton"
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 2b
+	},
+	{
+		uid: "92074eee",
+		type: "item",
+		items: [{
+			id: "rftools:syringe",
+			tag: {
+				mobName: "Wither",
+				level: 10,
+				mobId: "minecraft:wither"
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true
+	}],
+	rewards: [{
+		uid: "61657051",
+		type: "item",
+		item: "contenttweaker:advanced_mob_discovery"
+	}]
+}

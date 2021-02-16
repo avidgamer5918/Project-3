@@ -1,0 +1,22 @@
+{
+	title: "Steel!",
+	x: -3.0d,
+	y: 0.0d,
+	description: "{Chapter4.Steel.Subtitle}",
+	dependencies: [
+		"2382394d"
+	],
+	tasks: [{
+		uid: "cfaffea3",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 160"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "9954f955",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

@@ -1,7 +1,7 @@
 {
     "registryname": "Boring_Pumpjack",
     "localizedname": "Boring Pumpjack",
-    "color":"606060",
+    "color":"7e7e7e",
     "parts": [
         {
             "x": -1,
@@ -16,7 +16,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockfluidoutputhatch@1"
+                "casings_fluid_output"
             ]
         },
         {
@@ -24,7 +24,7 @@
             "y": 2,
             "z": 2,
             "elements": [
-                "magneticraft:storage_blocks@3"
+                "thermalfoundation:storage@4"
             ]
         },
         {
@@ -32,7 +32,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "magneticraft:storage_blocks@3"
+                "thermalfoundation:storage@4"
             ]
         },
         {
@@ -72,7 +72,7 @@
             "y": 0,
             "z": 1,
             "elements": [
-                "modularmachinery:blockenergyinputhatch@1"
+                "casings_energy_input"
             ]
         },
         {
@@ -248,7 +248,7 @@
             "y": 2,
             "z": 1,
             "elements": [
-                "magneticraft:storage_blocks@3"
+                "thermalfoundation:storage@4"
             ]
         },
         {
@@ -256,7 +256,7 @@
             "y": 2,
             "z": 0,
             "elements": [
-                "magneticraft:storage_blocks@3"
+                "thermalfoundation:storage@4"
             ]
         },
         {

@@ -1,0 +1,38 @@
+{
+	x: 6.5d,
+	y: 1.5d,
+	shape: "circle",
+	dependencies: [
+		"6ccfe66f"
+	],
+	tasks: [{
+		uid: "ddc126e8",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_transmutation_tablet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b4e76978",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				Parent: {
+					Items: []
+				}
+			},
+			id: "projecte:item.pe_mercurial_eye",
+			tag: {}
+		}
+	},
+	{
+		uid: "80d768bf",
+		type: "item",
+		item: {
+			id: "projecte:item.pe_harvest_god",
+			tag: {}
+		}
+	}]
+}

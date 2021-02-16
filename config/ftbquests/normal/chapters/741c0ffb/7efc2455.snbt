@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	description: "{Chapter4.RollingMachine.Subtitle}",
+	dependencies: [
+		"ba02a1c6"
+	],
+	tasks: [{
+		uid: "35123993",
+		type: "item",
+		items: [{
+			item: "techreborn:rolling_machine"
+		}]
+	}],
+	rewards: [{
+		uid: "f40518c6",
+		type: "item",
+		item: "techreborn:part 1 36",
+		count: 16
+	}]
+}

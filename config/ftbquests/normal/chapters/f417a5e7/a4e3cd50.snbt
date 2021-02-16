@@ -1,0 +1,72 @@
+{
+	title: "Gas Turbine",
+	icon: "advgenerators:turbine_controller",
+	x: 0.0d,
+	y: 0.5d,
+	description: "{Chapter3.GasTurbine.Subtitle}",
+	dependencies: [
+		"3b536584"
+	],
+	tasks: [{
+		uid: "7b3f3224",
+		type: "item",
+		items: [{
+			item: "advgenerators:turbine_controller"
+		}]
+	},
+	{
+		uid: "7fc1d6a9",
+		type: "item",
+		items: [{
+			item: "advgenerators:forge_output"
+		}]
+	},
+	{
+		uid: "9441986a",
+		type: "item",
+		items: [{
+			item: "advgenerators:fluid_input"
+		}]
+	},
+	{
+		uid: "b805c806",
+		type: "item",
+		items: [{
+			item: "advgenerators:efficiency_upgrade_tier1"
+		}]
+	},
+	{
+		uid: "503137dd",
+		type: "item",
+		items: [{
+			item: "advgenerators:efficiency_upgrade_tier2"
+		}]
+	},
+	{
+		uid: "96ced567",
+		type: "item",
+		items: [{
+			item: "advgenerators:turbine_iron"
+		},
+		{
+			item: "advgenerators:turbine_gold"
+		},
+		{
+			item: "advgenerators:turbine_bronze"
+		},
+		{
+			item: "advgenerators:turbine_steel"
+		},
+		{
+			item: "advgenerators:turbine_enderium"
+		},
+		{
+			item: "advgenerators:turbine_manyullyn"
+		}]
+	}],
+	rewards: [{
+		uid: "289cc1bc",
+		type: "choice",
+		table: 2
+	}]
+}

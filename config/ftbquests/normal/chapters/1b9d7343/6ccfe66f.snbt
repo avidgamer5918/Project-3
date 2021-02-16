@@ -1,0 +1,23 @@
+{
+	x: 5.5d,
+	y: 1.5d,
+	shape: "pentagon",
+	dependencies: [
+		"8c240415"
+	],
+	tasks: [{
+		uid: "a9e5159a",
+		type: "item",
+		items: [{
+			item: "projecte:transmutation_table"
+		}]
+	}],
+	rewards: [{
+		uid: "0babaec3",
+		type: "item",
+		item: {
+			id: "projecte:item.pe_life_stone",
+			tag: {}
+		}
+	}]
+}

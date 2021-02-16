@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	description: "{Chapter8.UltimateIngot.Subtitle}",
+	dependencies: [
+		"c523873e"
+	],
+	tasks: [{
+		uid: "2802e3eb",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 32"
+		}]
+	}],
+	rewards: [{
+		uid: "fd82d679",
+		type: "item",
+		item: "extendedcrafting:singularity_ultimate"
+	}]
+}

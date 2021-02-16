@@ -1,0 +1,21 @@
+{
+	x: -1.0d,
+	y: -1.0d,
+	description: "{Chapter4.IndustrialElectrolyzer.Subtitle}",
+	dependencies: [
+		"59bdd4fd"
+	],
+	tasks: [{
+		uid: "3cd74cfe",
+		type: "item",
+		items: [{
+			item: "techreborn:industrial_electrolyzer"
+		}]
+	}],
+	rewards: [{
+		uid: "71099d13",
+		type: "item",
+		item: "techreborn:dynamiccell",
+		count: 16
+	}]
+}

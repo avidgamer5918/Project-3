@@ -1,0 +1,29 @@
+{
+	icon: "projectex:collector",
+	x: 4.5d,
+	y: 5.0d,
+	description: "{Chapter8.BasicCollectorMK1.Subtitle}",
+	hide_dependency_lines: true,
+	dependencies: [
+		"eccbd677"
+	],
+	tasks: [{
+		uid: "9f7fb4eb",
+		type: "item",
+		items: [{
+			item: "projectex:collector"
+		}]
+	},
+	{
+		uid: "c6f157b7",
+		type: "item",
+		items: [{
+			item: "projectex:relay"
+		}]
+	}],
+	rewards: [{
+		uid: "031b0af3",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	dependencies: [
+		"392df9c3"
+	],
+	tasks: [{
+		uid: "97c68c7d",
+		type: "item",
+		items: [{
+			item: "projecte:item.pe_fuel 1 2"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "65c38ae7",
+		type: "item",
+		item: "projecte:item.pe_evertide_amulet"
+	}]
+}

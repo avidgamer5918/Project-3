@@ -1,0 +1,25 @@
+{
+	title: "MagneticraftRewards",
+	loot_size: 1,
+	rewards: [{
+		item: "magneticraft:inserter",
+		count: 2
+	},
+	{
+		item: "magneticraft:pneumatic_tube",
+		count: 8
+	},
+	{
+		item: "magneticraft:relay"
+	},
+	{
+		item: "magneticraft:filter"
+	},
+	{
+		item: "magneticraft:transposer"
+	},
+	{
+		item: "magneticraft:conveyor_belt",
+		count: 4
+	}]
+}

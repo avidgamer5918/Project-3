@@ -1,0 +1,26 @@
+{
+	title: "AE2 Research",
+	icon: "chisel:futura 1 2",
+	x: -1.0d,
+	y: 3.0d,
+	shape: "diamond",
+	description: "{Chapter2.AE2Research.Subtitle}",
+	dependencies: [
+		"8a6e3f6e"
+	],
+	tasks: [{
+		uid: "37dbf8f2",
+		type: "item",
+		items: [{
+			item: "contenttweaker:storage_catalyst"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "779c4f4c",
+		type: "item",
+		item: "contenttweaker:ae_discovery"
+	}]
+}

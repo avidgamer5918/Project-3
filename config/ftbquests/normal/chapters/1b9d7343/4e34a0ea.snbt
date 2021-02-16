@@ -1,0 +1,23 @@
+{
+	icon: "extendedcrafting:compressor",
+	x: -0.5d,
+	y: 1.0d,
+	description: "{Chapter8.QuantumCompressor.Subtitle}",
+	dependencies: [
+		"ba58d4e5"
+	],
+	tasks: [{
+		uid: "0bb27a43",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:compressor"
+		}]
+	},
+	{
+		uid: "da641a1a",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 11"
+		}]
+	}]
+}

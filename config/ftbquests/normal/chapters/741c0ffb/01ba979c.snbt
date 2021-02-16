@@ -1,0 +1,21 @@
+{
+	x: 2.0d,
+	y: -1.0d,
+	description: "{Chapter4.PlateBendingMachine.Subtitle}",
+	dependencies: [
+		"ef7d0070"
+	],
+	tasks: [{
+		uid: "8d3cea81",
+		type: "item",
+		items: [{
+			item: "techreborn:plate_bending_machine"
+		}]
+	}],
+	rewards: [{
+		uid: "ba7cfc0d",
+		type: "item",
+		item: "techreborn:part 1 36",
+		count: 16
+	}]
+}

@@ -1,0 +1,38 @@
+{
+	title: "Canola Automation",
+	icon: "actuallyadditions:block_farmer",
+	x: -1.0d,
+	y: -1.0d,
+	description: "{Chapter5.CanolaAutomation.Subtitle}",
+	dependencies: [
+		"ed5fdc4c"
+	],
+	tasks: [{
+		uid: "17d739c3",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_farmer"
+		},
+		{
+			item: "immersiveengineering:metal_device1 1 13"
+		}]
+	},
+	{
+		uid: "2183a4a0",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_misc 1 13"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "049d43d7",
+		type: "item",
+		item: {
+			id: "actuallyadditions:item_battery_double",
+			tag: {
+				Energy: 350000
+			}
+		}
+	}]
+}

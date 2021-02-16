@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: -1.0d,
+	description: "{Chapter6.MobSlauterFactory.Subtitle}",
+	dependencies: [
+		"9dd0b960"
+	],
+	tasks: [{
+		uid: "95e0077b",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:mob_slaughter_factory"
+		}]
+	}],
+	rewards: [{
+		uid: "9e511031",
+		type: "choice",
+		table: 11
+	}]
+}

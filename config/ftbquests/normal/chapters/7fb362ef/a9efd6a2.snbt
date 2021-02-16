@@ -1,0 +1,97 @@
+{
+	icon: "magneticraft:sieve",
+	x: -11.0d,
+	y: -15.0d,
+	description: "{Chapter1.Sieve.Subtitle}",
+	text: [
+		"{Chapter1.Sieve2.Description}"
+	],
+	dependencies: [
+		"2fcffd70"
+	],
+	tasks: [{
+		uid: "1b286f0b",
+		type: "item",
+		items: [{
+			item: "magneticraft:sieve"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "4ec2eac9",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts"
+		}],
+		count: 7L,
+		consume_items: true
+	},
+	{
+		uid: "5a970a1c",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_column"
+		}],
+		count: 6L,
+		consume_items: true
+	},
+	{
+		uid: "e8a6879a",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 3"
+		}],
+		count: 8L,
+		consume_items: true
+	},
+	{
+		uid: "130723ec",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 2"
+		}],
+		count: 4L,
+		consume_items: true
+	},
+	{
+		uid: "12c9f51d",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 5"
+		}],
+		count: 4L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "309d64a7",
+		type: "item",
+		item: "scannable:scanner"
+	},
+	{
+		uid: "16d1225b",
+		type: "item",
+		item: "scannable:module_blank",
+		count: 2
+	},
+	{
+		uid: "9f43ef6a",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				color: 13421772,
+				size: 5,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "minecraft:config/capsule/rewards/sieve",
+				author: "Avidgamer5918",
+				display: {
+					color: 7105644
+				},
+				label: "sieve",
+				canRotate: 0b
+			},
+			Damage: 5s
+		}
+	}]
+}

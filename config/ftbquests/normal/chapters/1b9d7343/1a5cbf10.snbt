@@ -1,0 +1,27 @@
+{
+	x: 8.5d,
+	y: 5.5d,
+	description: "{Chapter8.CompressedRefinedEMCLink.Subtitle}",
+	text: [
+		"Note: Can be used with Applied Energistics storage busses."
+	],
+	dependencies: [
+		"fd9f8746"
+	],
+	tasks: [{
+		uid: "eb54617c",
+		type: "item",
+		items: [{
+			item: "projectex:compressed_refined_link"
+		}]
+	}],
+	rewards: [{
+		uid: "d0e890a3",
+		type: "item",
+		item: {
+			id: "projecte:item.pe_klein_star",
+			tag: {},
+			Damage: 3s
+		}
+	}]
+}

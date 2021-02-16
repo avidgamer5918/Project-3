@@ -1,0 +1,27 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	description: "{Chapter4.IndustrialCenterfuge.Subtitle}",
+	dependencies: [
+		"069033e6"
+	],
+	tasks: [{
+		uid: "62940e5b",
+		type: "item",
+		items: [{
+			item: "techreborn:industrial_centrifuge"
+		}]
+	}],
+	rewards: [{
+		uid: "aa8a2df9",
+		type: "item",
+		item: "techreborn:dynamiccell",
+		count: 16
+	},
+	{
+		uid: "3ce5c2a8",
+		type: "item",
+		item: "techreborn:part 1 31",
+		count: 16
+	}]
+}

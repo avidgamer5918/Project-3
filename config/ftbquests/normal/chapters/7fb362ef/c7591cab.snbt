@@ -1,0 +1,73 @@
+{
+	icon: "magneticraft:refinery",
+	x: -12.0d,
+	y: -13.0d,
+	description: "{Chapter1.Refinery.Subtitle}",
+	dependencies: [
+		"c40b32e3"
+	],
+	tasks: [{
+		uid: "104a402a",
+		type: "item",
+		items: [{
+			item: "magneticraft:refinery"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "b8b3882e",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_column"
+		}],
+		count: 32L,
+		consume_items: true
+	},
+	{
+		uid: "ae9074c8",
+		type: "item",
+		items: [{
+			item: "magneticraft:multiblock_parts 1 5"
+		}],
+		count: 48L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "354dcbc0",
+		type: "item",
+		item: "magneticraft:iron_pipe",
+		count: 16
+	},
+	{
+		uid: "c74d1147",
+		type: "item",
+		item: {
+			id: "thermalexpansion:tank",
+			tag: {
+				RSControl: 0b,
+				Level: 0b
+			}
+		}
+	},
+	{
+		uid: "6645a1c7",
+		type: "item",
+		item: {
+			id: "capsule:capsule",
+			tag: {
+				color: 10076989,
+				size: 9,
+				isReward: 1b,
+				oneUse: 1b,
+				structureName: "minecraft:config/capsule/rewards/refinery",
+				author: "Avidgamer5918",
+				display: {
+					color: 5544791
+				},
+				label: "refinery",
+				canRotate: 0b
+			},
+			Damage: 5s
+		}
+	}]
+}

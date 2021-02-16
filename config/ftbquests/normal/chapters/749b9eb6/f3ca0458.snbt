@@ -1,0 +1,21 @@
+{
+	x: 1.0d,
+	y: 6.0d,
+	description: "{Chapter6.VoidResourceMiner2.Subtitle}",
+	dependencies: [
+		"5f89e4a2"
+	],
+	tasks: [{
+		uid: "b9e210e4",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_res_miner_cont_5"
+		}]
+	}],
+	rewards: [{
+		uid: "d2299a8e",
+		type: "item",
+		item: "bhc:relic_apple",
+		count: 4
+	}]
+}

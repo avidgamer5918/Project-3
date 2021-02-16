@@ -1,0 +1,40 @@
+{
+	title: "Better Power Research",
+	icon: "advgenerators:power_io",
+	x: 1.0d,
+	y: 2.0d,
+	shape: "circle",
+	description: "{Chapter2.BetterPowerResearch.Subtitle}",
+	dependencies: [
+		"b394feef"
+	],
+	tasks: [{
+		uid: "1842fbbf",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_laser_relay"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "3d56d89d",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_laser_relay_advanced"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "86b4da12",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_laser_relay_extreme"
+		}],
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "b59798b3",
+		type: "item",
+		item: "contenttweaker:better_power_discovery"
+	}]
+}

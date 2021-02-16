@@ -1,0 +1,49 @@
+{
+	title: "Ore Crushing",
+	icon: "magneticraft:crushing_table",
+	x: -14.0d,
+	y: -15.0d,
+	description: "{Chapter1.OreCrushing.Subtitle}",
+	text: [
+		"{Chapter1.OreCrushing2.Description}"
+	],
+	dependencies: [
+		"578cc38b"
+	],
+	tasks: [{
+		uid: "869d517a",
+		type: "item",
+		items: [{
+			item: "magneticraft:crushing_table"
+		}]
+	},
+	{
+		uid: "abeb3783",
+		type: "item",
+		items: [{
+			item: "magneticraft:stone_hammer"
+		}]
+	},
+	{
+		uid: "900fe944",
+		type: "item",
+		items: [{
+			item: "magneticraft:rocky_chunks"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "50c0cca1",
+		type: "item",
+		item: {
+			id: "thermalfoundation:tool.hammer_copper",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 34s
+				}],
+				RepairCost: 1
+			}
+		}
+	}]
+}

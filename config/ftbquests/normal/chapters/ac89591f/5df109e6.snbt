@@ -1,0 +1,20 @@
+{
+	x: 1.0d,
+	y: 6.0d,
+	dependencies: [
+		"aeed8dfd"
+	],
+	tasks: [{
+		uid: "daae4b08",
+		type: "item",
+		items: [{
+			item: "extrautils2:opinium 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "00ea795c",
+		type: "item",
+		item: "extrautils2:ingredients 1 15",
+		count: 4
+	}]
+}

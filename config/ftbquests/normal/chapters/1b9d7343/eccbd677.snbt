@@ -1,0 +1,32 @@
+{
+	x: 1.0d,
+	y: -1.0d,
+	description: "{Chapter8.PhilospherStone.Subtitle}",
+	text: [
+		""
+	],
+	dependencies: [
+		"6b1d6f03"
+	],
+	tasks: [{
+		uid: "6f88b083",
+		type: "item",
+		items: [{
+			id: "projecte:item.pe_philosophers_stone",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e76cfc79",
+		type: "item",
+		item: "projecte:interdiction_torch",
+		count: 32
+	},
+	{
+		uid: "d488d40c",
+		type: "item",
+		item: "projecte:alchemical_chest"
+	}]
+}

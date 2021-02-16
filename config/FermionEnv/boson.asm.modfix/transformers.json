@@ -1,0 +1,12 @@
+{
+  "crt_storing_error_logger": {
+    "description": "Removes a spam of NPE in the logs that occurs when registering the same ZenScript class twice, which happens in-dev when depending on API only",
+    "enabled": true,
+    "configuration": {}
+  },
+  "gui_ingredient": {
+    "description": "Fixes JEI 'Accepts any' text in ore-dictionary enabled recipes to also consider tags",
+    "enabled": true,
+    "configuration": {}
+  }
+}

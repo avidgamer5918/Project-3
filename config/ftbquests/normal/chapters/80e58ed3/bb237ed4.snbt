@@ -1,0 +1,67 @@
+{
+	title: "Fluid Challenge",
+	icon: {
+		id: "mekanism:machineblock2",
+		tag: {
+			tier: 4
+		},
+		Damage: 11s
+	},
+	x: -1.0d,
+	y: -5.5d,
+	shape: "circle",
+	dependencies: [
+		"6ccfe66f",
+		"21ad4afc",
+		"97629f61",
+		"5eb19e15",
+		"55075ac3",
+		"44ccc189",
+		"d61e4048",
+		"e8e79ce0",
+		"a24658fe",
+		"7976547f",
+		"c523873e"
+	],
+	tasks: [{
+		uid: "8e1209a0",
+		type: "fluid",
+		fluid: "milk_chocolate",
+		amount: 10000000
+	},
+	{
+		uid: "71ba2258",
+		type: "fluid",
+		fluid: "blood",
+		amount: 10000000
+	},
+	{
+		uid: "dcbadca6",
+		type: "fluid",
+		fluid: "water",
+		amount: 10000000
+	},
+	{
+		uid: "f6f2cff1",
+		type: "fluid",
+		fluid: "refined_biofuel",
+		amount: 10000000
+	},
+	{
+		uid: "02ea017d",
+		type: "fluid",
+		fluid: "experience",
+		amount: 1000000
+	},
+	{
+		uid: "52d96ed8",
+		type: "fluid",
+		fluid: "refined_fuel",
+		amount: 10000000
+	}],
+	rewards: [{
+		uid: "e2ef8bf7",
+		type: "ftbmoney:money",
+		ftb_money: 1000L
+	}]
+}

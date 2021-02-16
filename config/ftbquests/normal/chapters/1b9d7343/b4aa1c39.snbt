@@ -1,0 +1,20 @@
+{
+	x: 4.5d,
+	y: 6.0d,
+	description: "{Chapter8.BasicFlowerPowerBonsaiPot.Subtitle}",
+	dependencies: [
+		"6ed98325"
+	],
+	tasks: [{
+		uid: "ac2d92a4",
+		type: "item",
+		items: [{
+			item: "projectex:power_flower"
+		}]
+	}],
+	rewards: [{
+		uid: "4267a409",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

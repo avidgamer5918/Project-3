@@ -1,0 +1,29 @@
+{
+	icon: "techreborn:vacuum_freezer",
+	x: -1.0d,
+	y: 0.0d,
+	description: "{Chapter4.VacuumFreezer.Subtitle}",
+	dependencies: [
+		"ba02a1c6"
+	],
+	tasks: [{
+		uid: "cdea70c9",
+		type: "item",
+		items: [{
+			item: "techreborn:vacuum_freezer"
+		}]
+	},
+	{
+		uid: "9cbd49ff",
+		type: "item",
+		items: [{
+			item: "techreborn:machine_casing 1 1"
+		}],
+		count: 9L
+	}],
+	rewards: [{
+		uid: "43f3607f",
+		type: "item",
+		item: "techreborn:medium_voltage_su"
+	}]
+}

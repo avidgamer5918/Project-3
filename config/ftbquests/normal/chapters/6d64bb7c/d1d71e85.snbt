@@ -1,0 +1,46 @@
+{
+	title: "Better Tools Research",
+	icon: "tconstruct:tooltables 1 3",
+	x: 0.0d,
+	y: 0.0d,
+	description: "{Chapter2.BetterToolsResearch.Subtitle}",
+	tasks: [{
+		uid: "c7afb7b6",
+		type: "item",
+		items: [{
+			item: "minecraft:flint"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "ecd99e57",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "d411454e",
+		type: "item",
+		title: "64x Wood",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "plankWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 64L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "3025c9ba",
+		type: "item",
+		item: "contenttweaker:better_tools_discovery"
+	}]
+}

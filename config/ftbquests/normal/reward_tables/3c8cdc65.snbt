@@ -1,0 +1,22 @@
+{
+	title: "Aareward3",
+	loot_size: 1,
+	rewards: [{
+		item: "actuallyadditions:item_crystal_empowered"
+	},
+	{
+		item: "actuallyadditions:item_crystal_empowered 1 1"
+	},
+	{
+		item: "actuallyadditions:item_crystal_empowered 1 2"
+	},
+	{
+		item: "actuallyadditions:item_crystal_empowered 1 3"
+	},
+	{
+		item: "actuallyadditions:item_crystal_empowered 1 4"
+	},
+	{
+		item: "actuallyadditions:item_crystal_empowered 1 5"
+	}]
+}

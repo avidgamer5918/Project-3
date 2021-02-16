@@ -1,0 +1,50 @@
+{
+	title: "Dried Bricks",
+	icon: {
+		id: "tconstruct:rack",
+		tag: {
+			textureBlock: {
+				id: "minecraft:wooden_slab",
+				Count: 1b,
+				Damage: 0s
+			}
+		},
+		Damage: 1s
+	},
+	x: -9.5d,
+	y: -14.0d,
+	description: "{Chapter1.DriedBricks.Subtitle}",
+	dependencies: [
+		"c50110bc"
+	],
+	tasks: [{
+		uid: "82fd3f8c",
+		type: "item",
+		items: [{
+			id: "tconstruct:rack",
+			tag: {
+				textureBlock: {
+					id: "minecraft:wooden_slab",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		}],
+		count: 10L,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e9115c2f",
+		type: "item",
+		items: [{
+			item: "tconstruct:soil"
+		}],
+		count: 22L
+	}],
+	rewards: [{
+		uid: "8c475d36",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

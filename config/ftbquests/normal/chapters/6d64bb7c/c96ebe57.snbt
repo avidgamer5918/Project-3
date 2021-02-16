@@ -1,0 +1,65 @@
+{
+	title: "Future Tech Research",
+	icon: "draconicevolution:awakened_core",
+	x: 0.0d,
+	y: 4.0d,
+	description: "{Chapter2.FutureTechResearch.Subtitle}",
+	dependencies: [
+		"8a6e3f6e"
+	],
+	tasks: [{
+		uid: "90d68dfe",
+		type: "item",
+		items: [{
+			item: "industrialforegoing:pink_slime_ingot"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "1ccd614b",
+		type: "item",
+		items: [{
+			item: "environmentaltech:aethium_crystal"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "465a9fc3",
+		type: "item",
+		items: [{
+			item: "rftools:peaceful_module"
+		}],
+		consume_items: true
+	},
+	{
+		uid: "cd37294f",
+		type: "item",
+		items: [{
+			item: "rftools:infused_diamond"
+		}],
+		count: 64L,
+		consume_items: true
+	},
+	{
+		uid: "8395bd64",
+		type: "item",
+		items: [{
+			id: "techreborn:dynamiccell",
+			tag: {
+				Fluid: {
+					FluidName: "fluidheliumplasma",
+					Amount: 1000
+				}
+			}
+		}],
+		count: 8L,
+		consume_items: true
+	}],
+	rewards: [{
+		uid: "89e39718",
+		type: "item",
+		item: "contenttweaker:future_tech_discovery"
+	}]
+}

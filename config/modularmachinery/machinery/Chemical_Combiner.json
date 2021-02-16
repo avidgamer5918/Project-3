@@ -1,0 +1,270 @@
+{
+    "registryname": "Chemical_Combiner",
+    "localizedname": "Chemical Combiner",
+    "color":"F6F3F3",
+    "parts": [
+        {
+            "x": -1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_fluid_input"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:stone_decoration@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:stone_decoration@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "minecraft:quartz_block@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 1,
+            "elements": [
+                "casings_fluid_input"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "casings_item_output"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 0,
+            "z": 2,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_block@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_block@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:quartz_block@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "casings_energy_input"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_block@1"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:quartz_block@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:quartz_block@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 1,
+            "elements": [
+                "minecraft:quartz_block@1"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:stone_decoration@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:stone_decoration@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 3,
+            "z": 2,
+            "elements": [
+                "minecraft:quartz_block@1"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "immersiveengineering:stone_decoration@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:stone_decoration@8"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 1,
+            "z": 2,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 1,
+            "elements": [
+                "immersiveengineering:stone_decoration@8"
+            ]
+        },
+        {
+            "x": 0,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "immersiveengineering:stone_decoration@8"
+            ]
+        },
+        {
+            "x": -1,
+            "y": 2,
+            "z": 2,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        },
+        {
+            "x": 1,
+            "y": 2,
+            "z": 0,
+            "elements": [
+                "minecraft:quartz_block@0"
+            ]
+        }
+    ]}

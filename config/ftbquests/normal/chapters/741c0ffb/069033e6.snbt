@@ -1,0 +1,21 @@
+{
+	x: 3.0d,
+	y: -2.0d,
+	description: "{Chapter4.Compressor.Subtitle}",
+	dependencies: [
+		"574f3bfa"
+	],
+	tasks: [{
+		uid: "34a14839",
+		type: "item",
+		items: [{
+			item: "techreborn:compressor"
+		}]
+	}],
+	rewards: [{
+		uid: "e2b4c94f",
+		type: "item",
+		item: "techreborn:cable 1 5",
+		count: 16
+	}]
+}

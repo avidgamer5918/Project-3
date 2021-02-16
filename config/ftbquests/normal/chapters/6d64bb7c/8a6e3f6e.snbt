@@ -1,0 +1,75 @@
+{
+	title: "Advanced Tech Research",
+	icon: "thermalfoundation:upgrade",
+	x: 0.0d,
+	y: 3.0d,
+	description: "{Chapter2.AvancedTechResearch.Subtitle}",
+	dependencies: [
+		"b394feef"
+	],
+	tasks: [{
+		uid: "6aac2374",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_crystal_empowered"
+		}],
+		count: 8L,
+		consume_items: true
+	},
+	{
+		uid: "fcdc08f4",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_crystal_empowered 1 1"
+		}],
+		count: 8L,
+		consume_items: true
+	},
+	{
+		uid: "89a02d88",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_crystal_empowered 1 2"
+		}],
+		count: 8L,
+		consume_items: true
+	},
+	{
+		uid: "3b2ef673",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_crystal_empowered 1 3"
+		}],
+		count: 8L,
+		consume_items: true
+	},
+	{
+		uid: "5dfaba92",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_crystal_empowered 1 4"
+		}],
+		count: 8L,
+		consume_items: true
+	},
+	{
+		uid: "5b43488e",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:block_crystal_empowered 1 5"
+		}],
+		count: 8L,
+		consume_items: true
+	},
+	{
+		uid: "b74d0fad",
+		type: "fluid",
+		fluid: "empoweredoil",
+		amount: 20000
+	}],
+	rewards: [{
+		uid: "a85c55a7",
+		type: "item",
+		item: "contenttweaker:advanced_tech_discovery"
+	}]
+}

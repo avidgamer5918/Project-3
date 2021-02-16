@@ -1,0 +1,99 @@
+{
+	title: "Upgrade Time",
+	icon: "draconicevolution:tool_upgrade",
+	x: 4.0d,
+	y: 1.0d,
+	description: "{Chapter7.UpgradeTime.Subtitle}",
+	dependencies: [
+		"be2e5b9c"
+	],
+	tasks: [{
+		uid: "4da2fc1f",
+		type: "item",
+		items: [{
+			item: "draconicevolution:tool_upgrade"
+		}]
+	},
+	{
+		uid: "4b6db460",
+		type: "item",
+		items: [{
+			item: "draconicevolution:tool_upgrade 1 1"
+		}]
+	},
+	{
+		uid: "009a2399",
+		type: "item",
+		items: [{
+			item: "draconicevolution:tool_upgrade 1 2"
+		}]
+	},
+	{
+		uid: "b173e994",
+		type: "item",
+		items: [{
+			item: "draconicevolution:tool_upgrade 1 3"
+		}]
+	},
+	{
+		uid: "652daa4f",
+		type: "item",
+		items: [{
+			item: "draconicevolution:tool_upgrade 1 4"
+		}]
+	},
+	{
+		uid: "77395865",
+		type: "item",
+		items: [{
+			item: "draconicevolution:tool_upgrade 1 5"
+		}]
+	},
+	{
+		uid: "d331512d",
+		type: "item",
+		items: [{
+			item: "draconicevolution:tool_upgrade 1 6"
+		}]
+	},
+	{
+		uid: "2182fe54",
+		type: "item",
+		items: [{
+			item: "draconicevolution:tool_upgrade 1 7"
+		}]
+	},
+	{
+		uid: "018e5702",
+		type: "item",
+		items: [{
+			item: "draconicevolution:tool_upgrade 1 8"
+		}]
+	},
+	{
+		uid: "34ab1e9a",
+		type: "item",
+		items: [{
+			item: "draconicevolution:tool_upgrade 1 9"
+		}]
+	},
+	{
+		uid: "67b31250",
+		type: "item",
+		items: [{
+			item: "draconicevolution:tool_upgrade 1 10"
+		}]
+	},
+	{
+		uid: "71ca2f98",
+		type: "item",
+		items: [{
+			item: "draconicevolution:tool_upgrade 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "edda505c",
+		type: "item",
+		item: "draconicevolution:diss_enchanter"
+	}]
+}

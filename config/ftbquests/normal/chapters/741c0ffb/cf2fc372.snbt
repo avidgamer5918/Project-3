@@ -1,0 +1,85 @@
+{
+	title: "Industrial Squeezer",
+	icon: "immersiveengineering:wooden_device0 1 1",
+	x: -4.0d,
+	y: 1.0d,
+	description: "{Chapter4.IndustrialSqueezer.Subtitle}",
+	dependencies: [
+		"57c1f02b"
+	],
+	tasks: [{
+		uid: "347aca13",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1 1 1"
+		}],
+		count: 6L
+	},
+	{
+		uid: "c9e0dc9a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_device1 1 6"
+		}],
+		count: 2L
+	},
+	{
+		uid: "16829954",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 3"
+		}]
+	},
+	{
+		uid: "784672b5",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration0 1 4"
+		}],
+		count: 2L
+	},
+	{
+		uid: "e64ebbbb",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device0 1 1"
+		}],
+		count: 4L
+	},
+	{
+		uid: "2491c7bb",
+		type: "item",
+		items: [{
+			item: "minecraft:piston"
+		}]
+	},
+	{
+		uid: "7e993413",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:metal_decoration1"
+		}],
+		count: 3L
+	},
+	{
+		uid: "25901d2a",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:material 1 17"
+		}],
+		count: 64L
+	}],
+	rewards: [{
+		uid: "9d8d9d70",
+		type: "item",
+		item: {
+			ForgeCaps: {
+				Parent: {
+					Size: 21,
+					Items: []
+				}
+			},
+			id: "immersiveengineering:revolver"
+		}
+	}]
+}

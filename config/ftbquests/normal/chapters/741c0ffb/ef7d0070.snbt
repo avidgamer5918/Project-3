@@ -1,0 +1,55 @@
+{
+	icon: {
+		id: "techreborn:industrial_blast_furnace",
+		tag: {}
+	},
+	x: 1.0d,
+	y: -1.0d,
+	description: "{Chapter4.IndustrialBlastFurnace.Subtitle}",
+	text: [
+		"{Chapter4.IndustrialBlastFurnace2.Description}"
+	],
+	dependencies: [
+		"7efc2455"
+	],
+	tasks: [{
+		uid: "7ba56bb1",
+		type: "item",
+		items: [{
+			id: "techreborn:industrial_blast_furnace",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "912ac487",
+		type: "item",
+		items: [{
+			item: "techreborn:machine_casing"
+		}],
+		count: 18L
+	},
+	{
+		uid: "ce3b3f77",
+		type: "item",
+		items: [{
+			item: "techreborn:machine_casing 1 1"
+		}],
+		count: 16L
+	},
+	{
+		uid: "f4400f8d",
+		type: "item",
+		items: [{
+			item: "minecraft:lava_bucket"
+		}],
+		count: 2L,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d38c7761",
+		type: "item",
+		item: "techreborn:upgrades 1 1"
+	}]
+}

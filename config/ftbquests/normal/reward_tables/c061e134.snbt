@@ -1,0 +1,15 @@
+{
+	title: "Advancedgenreward",
+	loot_size: 1,
+	rewards: [{
+		item: "advgenerators:iron_tubing",
+		count: 16
+	},
+	{
+		item: "advgenerators:iron_wiring",
+		count: 16
+	},
+	{
+		item: "advgenerators:controller"
+	}]
+}

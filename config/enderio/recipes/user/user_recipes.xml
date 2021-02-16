@@ -1,4 +1,98 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <enderio:recipes xmlns:enderio="http://enderio.com/recipes" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://enderio.com/recipes recipes.xsd ">
+<recipe name="Tweak: Stick from Wood" required="false" disabled="true">
+    <crafting>
+      <grid size="1x2">
+        <item name="logWood"/>
+        <item name="logWood"/>
+      </grid>
+      <output name="minecraft:stick, stickWood" amount="16" />
+    </crafting>
+  </recipe>
+
+  <recipe name="Tweak: Chest from Wood" required="false" disabled="true">
+    <crafting>
+      <grid>
+        <item name="logWood"/><item name="logWood"/><item name="logWood"/>
+        <item name="logWood"/><item/><item name="logWood"/>
+        <item name="logWood"/><item name="logWood"/><item name="logWood"/>
+      </grid>
+      <output name="minecraft:chest, chestWood" amount="4" />
+    </crafting>
+  </recipe>
+ 
+  <recipe name="Tweak: Wood Hopper" required="false" disabled="true">
+    <crafting>
+      <grid>
+        <item name="IRON"/><item name="logWood"/><item name="IRON"/>
+        <item name="IRON"/><item name="logWood"/><item name="IRON"/>
+        <item/><item name="IRON"/><item/>
+      </grid>
+      <output name="minecraft:hopper, blockHopper" />
+    </crafting>
+  </recipe>
+
+  <recipe name="Chassis" disabled="true">
+    <alloying energy="3600" exp="1">
+      <input name="SIMPLE_CHASSIS"/>
+      <input name="dyeMachine"/>
+      <output name="CHASSIS"/>
+    </alloying>
+  </recipe>
+
+  <recipe name="Soul Chassis" disabled="true">
+    <alloying energy="3600" exp="1">
+      <input name="SIMPLE_CHASSIS"/>
+      <input name="dyeSoulMachine"/>
+      <output name="SOUL_CHASSIS"/>
+    </alloying>
+  </recipe>
+
+   <recipe name="Sagmill: draconicevolution:draconium_ore:0 Ore" required="false" disabled="true">
+    <sagmilling energy="3600">
+      <input name="draconicevolution:draconium_ore:0" />
+      <output name="dustDraconium" amount="3" />
+      <output name="dustDraconium" amount="2" chance="0.4" />
+      <output name="dustDraconium" amount="2" chance="0.15"/>
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: Nether Draconic Ore" required="false" disabled="true">
+    <sagmilling energy="3200">
+      <input name="oreNetherDraconium" />
+      <output name="dustDraconium" amount="4" />
+      <output name="minecraft:netherrack" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+   <recipe name="Sagmill: draconicevolution:draconium_ore:1 Ore" required="false" disabled="true">
+    <sagmilling energy="3600">
+      <input name="draconicevolution:draconium_ore:1" />
+      <output name="dustDraconium" amount="3" />
+      <output name="dustDraconium" amount="2" chance="0.4" />
+      <output name="dustDraconium" amount="2" chance="0.15"/>
+      <output name="minecraft:netherrack" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: oreSapphire Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreSapphire" />
+      <output name="techreborn:gem:1" amount="2" />
+      <output name="techreborn:gem:1" chance="0.5" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
+
+  <recipe name="Sagmill: oreRuby Ore" required="false">
+    <sagmilling energy="3600">
+      <input name="oreRuby" />
+      <output name="techreborn:gem" amount="2" />
+      <output name="techreborn:gem" chance="0.5" />
+      <output name="oredict:cobblestone" chance="0.15" />
+    </sagmilling>
+  </recipe>
 
 </enderio:recipes>
+

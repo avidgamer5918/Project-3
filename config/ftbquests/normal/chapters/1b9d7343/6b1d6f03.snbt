@@ -1,0 +1,30 @@
+{
+	icon: "extendedcrafting:crafting_core",
+	x: 0.0d,
+	y: -1.0d,
+	description: "{Chapter8.CraftingCore.Subtitle}",
+	dependencies: [
+		"e3c34df2"
+	],
+	tasks: [{
+		uid: "6ccc0079",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:crafting_core"
+		}]
+	},
+	{
+		uid: "9239c605",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:pedestal"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "81e4baed",
+		type: "item",
+		item: "extendedcrafting:material 1 7",
+		count: 16
+	}]
+}

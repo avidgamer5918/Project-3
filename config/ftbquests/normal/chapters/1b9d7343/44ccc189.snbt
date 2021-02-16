@@ -1,0 +1,50 @@
+{
+	icon: "avaritia:infinity_chestplate",
+	x: 0.0d,
+	y: 4.0d,
+	dependencies: [
+		"21ad4afc"
+	],
+	tasks: [{
+		uid: "c10b2662",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b6b88be9",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e97ef8c8",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_pants"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "379b9459",
+		type: "item",
+		items: [{
+			item: "avaritia:infinity_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9f424546",
+		type: "item",
+		item: "extendedcrafting:singularity_ultimate",
+		count: 2
+	}]
+}

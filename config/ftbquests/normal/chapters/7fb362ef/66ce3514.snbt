@@ -1,0 +1,46 @@
+{
+	title: "Ore Doubling",
+	icon: "magneticraft:sluice_box",
+	x: -14.0d,
+	y: -14.0d,
+	description: "{Chapter1.OreDoubling.Subtitle}",
+	dependencies: [
+		"69c6f806"
+	],
+	tasks: [{
+		uid: "14e4e3b2",
+		type: "item",
+		items: [{
+			item: "magneticraft:sluice_box"
+		}]
+	},
+	{
+		uid: "997a0fd5",
+		type: "item",
+		items: [{
+			item: "magneticraft:chunks"
+		}],
+		count: 8L
+	},
+	{
+		uid: "1ca3ed8a",
+		type: "item",
+		items: [{
+			item: "ceramics:clay_bucket"
+		}]
+	}],
+	rewards: [{
+		uid: "20473e6d",
+		type: "item",
+		item: {
+			id: "thermalfoundation:tool.pickaxe_copper",
+			tag: {
+				ench: [{
+					lvl: 1s,
+					id: 34s
+				}],
+				RepairCost: 1
+			}
+		}
+	}]
+}

@@ -1,0 +1,66 @@
+//#priority 349
+import crafttweaker.item.IItemStack;
+import crafttweaker.item.IIngredient;
+
+val betterpowerstage as IItemStack[] = [
+    <advgenerators:iron_frame>,
+    <advgenerators:power_io>,
+    <advgenerators:iron_tubing>,
+    <advgenerators:iron_wiring>,
+    <advgenerators:controller>,
+    <advgenerators:pressure_valve>,
+    <advgenerators:advanced_pressure_valve>,
+    <advgenerators:upgrade_kit>,
+    <advgenerators:turbine_controller>,
+    <advgenerators:exchanger_controller>,
+    <advgenerators:steam_turbine_controller>,
+    <advgenerators:syngas_controller>,
+    <advgenerators:rf_output>,
+    <advgenerators:forge_output>,
+    <advgenerators:gas_input>,
+    <advgenerators:fluid_output_select>,
+    <advgenerators:item_input>,
+    <advgenerators:item_output>,
+    <advgenerators:fuel_tank>,
+    <advgenerators:heating_chamber>,
+    <advgenerators:mixing_chamber>,
+    <advgenerators:fluid_input>,
+    <advgenerators:heat_exchanger>,
+    <advgenerators:sensor>,
+    <advgenerators:control>,
+    <advgenerators:efficiency_upgrade_tier1>,
+    <advgenerators:efficiency_upgrade_tier2>,
+    <advgenerators:turbine_blade_enderium>,
+    <advgenerators:turbine_rotor_enderium>,
+    <advgenerators:turbine_kit_enderium>,
+    <advgenerators:turbine_enderium>,
+    <advgenerators:turbine_rotor_steel>,
+    <advgenerators:turbine_blade_steel>,
+    <advgenerators:turbine_kit_steel>,
+    <advgenerators:turbine_steel>,
+    <advgenerators:turbine_rotor_gold>,
+    <advgenerators:turbine_kit_gold>,
+    <advgenerators:turbine_blade_bronze>,
+    <advgenerators:turbine_rotor_bronze>,
+    <advgenerators:turbine_gold>,
+    <advgenerators:turbine_kit_bronze>,
+    <advgenerators:turbine_bronze>,
+    <advgenerators:turbine_blade_manyullyn>,
+    <advgenerators:turbine_rotor_manyullyn>,
+    <advgenerators:turbine_kit_manyullyn>,
+    <advgenerators:turbine_manyullyn>,
+    <advgenerators:turbine_blade_iron>,
+    <advgenerators:turbine_rotor_iron>,
+    <advgenerators:turbine_iron>,
+    <advgenerators:power_capacitor_redstone>,
+    <advgenerators:capacitor_kit_advanced>,
+    <advgenerators:power_capacitor_advanced>,
+    <advgenerators:capacitor_kit_dense>,
+    <advgenerators:power_capacitor_dense>,
+
+];
+
+for item in betterpowerstage {
+    mods.recipestages.Recipes.setRecipeStage("betterpower", item);
+    mods.ItemStages.addItemStage("betterpower", item);
+}

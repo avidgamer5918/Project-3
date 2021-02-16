@@ -1,0 +1,59 @@
+{
+	title: "Building Gadgets",
+	icon: {
+		id: "buildinggadgets:buildingtool",
+		tag: {
+			blockstate: {
+				Name: "minecraft:air"
+			}
+		}
+	},
+	x: -0.5d,
+	y: -6.0d,
+	shape: "circle",
+	description: "{Chapter10.BuildingGadgets.Subtitle}",
+	hide_dependency_lines: true,
+	dependencies: [
+		"3a0eeb58"
+	],
+	tasks: [{
+		uid: "82eb7d73",
+		type: "item",
+		items: [{
+			id: "buildinggadgets:buildingtool",
+			tag: {
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		},
+		{
+			id: "buildinggadgets:exchangertool",
+			tag: {
+				blockstate: {
+					Name: "minecraft:air"
+				}
+			}
+		},
+		{
+			id: "buildinggadgets:copypastetool",
+			tag: {
+				mode: "Copy"
+			}
+		},
+		{
+			id: "buildinggadgets:destructiontool",
+			tag: {
+				overlay: 1b,
+				fuzzy: 1b
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3c5eae41",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

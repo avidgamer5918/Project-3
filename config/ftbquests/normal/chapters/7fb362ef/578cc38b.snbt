@@ -1,0 +1,31 @@
+{
+	title: "Chop Chop",
+	icon: "minecraft:log",
+	x: -13.0d,
+	y: -16.0d,
+	description: "{Chapter1.ChopChop.Subtitle}",
+	tasks: [{
+		uid: "07a46398",
+		type: "item",
+		items: [{
+			ForgeCaps: {
+				Parent: {
+					data: "logWood",
+					id: "ore"
+				}
+			},
+			id: "itemfilters:filter"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "7bae030f",
+		type: "item",
+		item: "thermalfoundation:tool.axe_copper"
+	},
+	{
+		uid: "b2bbed3d",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

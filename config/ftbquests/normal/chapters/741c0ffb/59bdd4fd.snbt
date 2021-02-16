@@ -1,0 +1,21 @@
+{
+	x: -1.0d,
+	y: -2.0d,
+	description: "{Chapter4.Generator.Subtitle}",
+	dependencies: [
+		"1d99d51f"
+	],
+	tasks: [{
+		uid: "c015583d",
+		type: "item",
+		items: [{
+			item: "techreborn:solid_fuel_generator"
+		}]
+	}],
+	rewards: [{
+		uid: "86c75f5a",
+		type: "item",
+		item: "minecraft:coal 1 1",
+		count: 16
+	}]
+}

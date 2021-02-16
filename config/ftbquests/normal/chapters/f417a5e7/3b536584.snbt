@@ -1,0 +1,63 @@
+{
+	title: "Syngas",
+	icon: "advgenerators:syngas_controller",
+	x: 0.0d,
+	y: -0.5d,
+	description: "{Chapter3.Syngas.Subtitle}",
+	dependencies: [
+		"21b209a8"
+	],
+	tasks: [{
+		uid: "9f9f76a7",
+		type: "item",
+		items: [{
+			item: "advgenerators:syngas_controller"
+		}]
+	},
+	{
+		uid: "24452994",
+		type: "item",
+		items: [{
+			item: "advgenerators:fluid_input"
+		}]
+	},
+	{
+		uid: "f9064819",
+		type: "item",
+		items: [{
+			item: "advgenerators:fluid_output_select"
+		}]
+	},
+	{
+		uid: "358d0067",
+		type: "item",
+		items: [{
+			item: "advgenerators:item_input"
+		}]
+	},
+	{
+		uid: "cc99f10c",
+		type: "item",
+		items: [{
+			item: "advgenerators:heating_chamber"
+		}]
+	},
+	{
+		uid: "38dad1a0",
+		type: "item",
+		items: [{
+			item: "advgenerators:mixing_chamber"
+		}]
+	}],
+	rewards: [{
+		uid: "35162220",
+		type: "item",
+		item: "minecraft:coal 1 1",
+		count: 16
+	},
+	{
+		uid: "18e2edcb",
+		type: "choice",
+		table: 2
+	}]
+}

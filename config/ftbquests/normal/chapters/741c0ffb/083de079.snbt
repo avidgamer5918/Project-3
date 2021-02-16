@@ -1,0 +1,21 @@
+{
+	x: 1.0d,
+	y: -2.0d,
+	description: "{Chapter4.GrinderTR.Subtitle}",
+	dependencies: [
+		"59eecea6"
+	],
+	tasks: [{
+		uid: "92dd6cd3",
+		type: "item",
+		items: [{
+			item: "techreborn:grinder"
+		}]
+	}],
+	rewards: [{
+		uid: "d9f4c2d3",
+		type: "item",
+		item: "techreborn:part 1 36",
+		count: 8
+	}]
+}

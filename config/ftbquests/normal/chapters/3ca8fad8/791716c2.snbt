@@ -1,0 +1,21 @@
+{
+	title: "Empowered Canola Seeds",
+	x: -1.0d,
+	y: 2.0d,
+	description: "{Chapter5.EmpoweredCanolaSeeds.Subtitle}",
+	dependencies: [
+		"991b329b"
+	],
+	tasks: [{
+		uid: "ec654a7e",
+		type: "item",
+		items: [{
+			item: "actuallyadditions:item_misc 1 24"
+		}]
+	}],
+	rewards: [{
+		uid: "e090a4b6",
+		type: "item",
+		item: "actuallyadditions:block_greenhouse_glass"
+	}]
+}

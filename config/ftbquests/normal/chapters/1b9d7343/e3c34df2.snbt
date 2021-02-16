@@ -1,0 +1,18 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	description: "{Chapter8.LateGame.Subtitle}",
+	dependencies: [
+		"7ab67c6c"
+	],
+	tasks: [{
+		uid: "955bc3f7",
+		type: "checkmark",
+		title: "Late Game"
+	}],
+	rewards: [{
+		uid: "6c1739b6",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

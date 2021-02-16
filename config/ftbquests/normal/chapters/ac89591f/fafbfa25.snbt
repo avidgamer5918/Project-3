@@ -1,0 +1,20 @@
+{
+	title: "Future Tech",
+	x: 0.0d,
+	y: 0.0d,
+	shape: "rsquare",
+	description: "{Chapter7.FutureTech.Subtitle}",
+	dependencies: [
+		"c96ebe57"
+	],
+	tasks: [{
+		uid: "8ab8e45f",
+		type: "checkmark",
+		title: "Future Tech"
+	}],
+	rewards: [{
+		uid: "3bd2a3e4",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Automation",
+	x: -1.0d,
+	y: -4.0d,
+	shape: "rsquare",
+	description: "{Chapter5.Automation.Subtitle}",
+	dependencies: [
+		"b394feef"
+	],
+	tasks: [{
+		uid: "9d6adea3",
+		type: "checkmark",
+		title: "Automation"
+	}],
+	rewards: [{
+		uid: "b888337d",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

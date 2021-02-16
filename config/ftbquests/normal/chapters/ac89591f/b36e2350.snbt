@@ -1,0 +1,32 @@
+{
+	title: "Draconium!",
+	icon: "draconicevolution:draconium_ingot",
+	x: 3.0d,
+	y: 2.0d,
+	shape: "diamond",
+	description: "{Chapter7.Draconium!.Subtitle}",
+	dependencies: [
+		"714dcec3"
+	],
+	tasks: [{
+		uid: "359e7116",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_dust"
+		}],
+		count: 8L
+	},
+	{
+		uid: "351f856a",
+		type: "item",
+		items: [{
+			item: "draconicevolution:draconium_ingot"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "716b1a02",
+		type: "item",
+		item: "thermalfoundation:upgrade 1 3"
+	}]
+}

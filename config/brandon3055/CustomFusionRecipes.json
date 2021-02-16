@@ -2,11 +2,29 @@
     {
         "mode": "ADD",
         "result": "projecte:condenser_mk1",
-        "catalyst": "progressivealchemy:condensertiered_8",
+        "catalyst": "draconicevolution:draconium_chest",
         "energy": 1000000,
-        "tier": 2,
+        "tier": 1,
         "ingredients": [
             "contenttweaker:compressed_carbon_ingot",
+            "draconicevolution:wyvern_core",
+            "contenttweaker:compressed_carbon_ingot",
+            "draconicevolution:draconium_block",
+            "draconicevolution:wyvern_core",
+            "draconicevolution:draconium_block",
+            "contenttweaker:compressed_carbon_ingot",
+            "draconicevolution:wyvern_core",
+            "contenttweaker:compressed_carbon_ingot"
+        ]
+    },
+    {
+    	"mode": "ADD",
+    	"result": "projecte:condenser_mk2",
+    	"catalyst": "projecte:condenser_mk1",
+    	"energy": 5000000,
+    	"tier": 2,
+    	"ingredients": [
+    		"contenttweaker:compressed_carbon_ingot",
             "draconicevolution:awakened_core",
             "contenttweaker:compressed_carbon_ingot",
             "draconicevolution:draconic_block",
@@ -16,5 +34,6 @@
             "draconicevolution:awakened_core",
             "contenttweaker:compressed_carbon_ingot"
         ]
+
     },
 ]

@@ -1,0 +1,48 @@
+{
+	title: "Upgrading The Blast Furnace",
+	icon: "techreborn:machine_casing 1 2",
+	x: 3.0d,
+	y: -1.0d,
+	description: "{Chapter4.UpgradingTheBlastFurnace.Subtitle}",
+	text: [
+		"{Chapter4.UpgradingTheBlastFurnace2.Description}"
+	],
+	dependencies: [
+		"01ba979c"
+	],
+	tasks: [{
+		uid: "47c7a0a1",
+		type: "item",
+		items: [{
+			item: "techreborn:machine_casing 1 2"
+		}],
+		count: 16L
+	},
+	{
+		uid: "b5a3bb86",
+		type: "item",
+		items: [{
+			item: "techreborn:machine_casing 1 1"
+		}],
+		count: 18L
+	},
+	{
+		uid: "8284efa3",
+		type: "item",
+		items: [{
+			item: "techreborn:part 1 15"
+		}],
+		count: 4L
+	}],
+	rewards: [{
+		uid: "65198275",
+		type: "item",
+		item: {
+			id: "techreborn:nanosaber",
+			tag: {
+				isActive: 0b,
+				energy: 0
+			}
+		}
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	title: "Jetpack Research",
+	icon: "ironjetpacks:iron_jetpack",
+	x: 1.0d,
+	y: 1.0d,
+	shape: "circle",
+	dependencies: [
+		"d1d71e85"
+	],
+	tasks: [{
+		uid: "e2e0ba54",
+		type: "dimension",
+		dim: 1
+	}],
+	rewards: [{
+		uid: "31f8abab",
+		type: "item",
+		item: "contenttweaker:jetpack_discovery"
+	}]
+}

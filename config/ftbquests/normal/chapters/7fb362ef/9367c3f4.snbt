@@ -1,0 +1,75 @@
+{
+	title: "Stone age",
+	icon: "minecraft:cobblestone",
+	x: -12.0d,
+	y: -16.0d,
+	description: "{Chapter1.StoneAge.Subtitle}",
+	dependencies: [
+		"578cc38b"
+	],
+	tasks: [{
+		uid: "5a39dd49",
+		type: "item",
+		items: [{
+			item: "minecraft:cobblestone"
+		}],
+		count: 16L
+	},
+	{
+		uid: "6b0f3738",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_pickaxe"
+		}],
+		consume_items: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5bd55f6e",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_shovel"
+		}],
+		consume_items: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8c8cda73",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_sword"
+		}],
+		consume_items: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "97181952",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_hoe"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "39cd153a",
+		type: "item",
+		items: [{
+			item: "minecraft:stone_axe"
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "cd5de27c",
+		type: "item",
+		item: "actuallyadditions:stone_paxel"
+	},
+	{
+		uid: "c552dddc",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

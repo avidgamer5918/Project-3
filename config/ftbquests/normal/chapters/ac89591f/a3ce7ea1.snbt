@@ -1,0 +1,24 @@
+{
+	title: "Pulverized Mana Infused Metal",
+	x: 1.0d,
+	y: 2.0d,
+	description: "{Chapter7.PulverizedManaInfusedMetal.Subtitle}",
+	dependencies: [
+		"acdb6c2f",
+		"8939ece7"
+	],
+	tasks: [{
+		uid: "e27bd00c",
+		type: "item",
+		items: [{
+			item: "thermalfoundation:material 1 72"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "1934afd4",
+		type: "item",
+		item: "thermalfoundation:material 1 866",
+		count: 16
+	}]
+}

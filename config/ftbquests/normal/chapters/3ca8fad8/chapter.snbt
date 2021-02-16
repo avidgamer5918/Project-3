@@ -1,0 +1,12 @@
+{
+	title: "Automation",
+	icon: {
+		id: "actuallyadditions:magnet_ring_bauble",
+		tag: {
+			Energy: 0
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

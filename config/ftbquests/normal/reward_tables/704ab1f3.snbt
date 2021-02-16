@@ -1,0 +1,52 @@
+{
+	title: "WorktableReward",
+	loot_size: 1,
+	rewards: [{
+		title: "Crafting Components Blueprint",
+		item: {
+			id: "immersiveengineering:blueprint",
+			tag: {
+				blueprint: "components",
+				display: {
+					Name: "Components Blueprint"
+				}
+			}
+		}
+	},
+	{
+		title: "Metal Press Molds Blueprint",
+		item: {
+			id: "immersiveengineering:blueprint",
+			tag: {
+				blueprint: "molds"
+			}
+		}
+	},
+	{
+		title: "Common Projectiles Blueprint",
+		item: {
+			id: "immersiveengineering:blueprint",
+			tag: {
+				blueprint: "bullet"
+			}
+		}
+	},
+	{
+		title: "Specialized Projectiles Blueprint",
+		item: {
+			id: "immersiveengineering:blueprint",
+			tag: {
+				blueprint: "specialBullet"
+			}
+		}
+	},
+	{
+		title: "Arc Furnace Electrodes Blueprint",
+		item: {
+			id: "immersiveengineering:blueprint",
+			tag: {
+				blueprint: "electrode"
+			}
+		}
+	}]
+}

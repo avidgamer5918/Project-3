@@ -1,3 +1,8 @@
 # Use this file to tell Mekanism which blocks should not be picked up by a cardboard box.
 # Proper syntax is "NAME META". Example (for stone):
 # minecraft:stone 0
+environmentaltech:void_ore_miner_cont_1 0
+environmentaltech:void_res_miner_cont_1 0
+environmentaltech:void_botanic_miner_cont_1 0
+
+

@@ -1,0 +1,24 @@
+{
+	title: "IEReward",
+	loot_size: 1,
+	rewards: [{
+		item: "immersiveengineering:wirecoil",
+		count: 8
+	},
+	{
+		item: "immersiveengineering:wirecoil 1 1",
+		count: 4
+	},
+	{
+		item: "immersiveengineering:wirecoil 1 2",
+		count: 2
+	},
+	{
+		item: "immersiveengineering:material 1 8",
+		count: 4
+	},
+	{
+		item: "immersiveengineering:material 1 9",
+		count: 2
+	}]
+}

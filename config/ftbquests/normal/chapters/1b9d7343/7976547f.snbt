@@ -1,0 +1,28 @@
+{
+	x: -2.0d,
+	y: 4.0d,
+	dependencies: [
+		"21ad4afc"
+	],
+	tasks: [{
+		uid: "5895fea3",
+		type: "item",
+		items: [{
+			id: "avaritia:infinity_pickaxe",
+			tag: {
+				ench: [{
+					lvl: 10s,
+					id: 35s
+				}]
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2b971688",
+		type: "item",
+		item: "extendedcrafting:singularity_ultimate",
+		count: 2
+	}]
+}

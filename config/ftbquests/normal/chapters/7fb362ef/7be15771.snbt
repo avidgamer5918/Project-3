@@ -1,0 +1,17 @@
+{
+	x: -12.0d,
+	y: -17.0d,
+	shape: "rsquare",
+	description: "{Chapter1.Obsidian.Subtitle}",
+	tasks: [{
+		uid: "43df2aff",
+		type: "checkmark",
+		title: "Obsidian",
+		icon: "minecraft:obsidian"
+	}],
+	rewards: [{
+		uid: "09a72c42",
+		type: "xp_levels",
+		xp_levels: 1
+	}]
+}

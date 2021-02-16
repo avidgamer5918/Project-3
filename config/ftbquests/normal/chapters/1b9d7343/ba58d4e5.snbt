@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	description: "{Chapter8.UltimateCraftingTable.Subtitle}",
+	dependencies: [
+		"6b1d6f03"
+	],
+	tasks: [{
+		uid: "22e0ced5",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:table_ultimate"
+		}]
+	}],
+	rewards: [{
+		uid: "6db8da75",
+		type: "item",
+		item: "extendedcrafting:interface"
+	}]
+}

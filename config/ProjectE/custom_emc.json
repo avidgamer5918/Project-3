@@ -1,20 +1,276 @@
 {
   "entries": [
     {
-      "item": "draconicevolution:draconium_ingot|0",
-      "emc": 8192
+      "item": "projecte:item.pe_philosophers_stone|0",
+      "emc": 9984
     },
     {
-      "item": "draconicevolution:draconium_block|0",
-      "emc": 73728
+      "item": "actuallyadditions:item_booklet|0",
+      "emc": 0
     },
     {
-      "item": "draconicevolution:draconic_ingot|0",
+      "item": "conarm:book|0",
+      "emc": 0
+    },
+    {
+      "item": "extrautils2:book|0",
+      "emc": 0
+    },
+    {
+      "item": "immersiveengineering:tool|3",
+      "emc": 0
+    },
+    {
+      "item": "magneticraft:guide_book|0",
+      "emc": 0
+    },
+    {
+      "item": "openblocks:info_book|0",
+      "emc": 0
+    },
+    {
+      "item": "rftoolsdim:rftoolsdim_manual|0",
+      "emc": 0
+    },
+    {
+      "item": "rftools:rftools_shape_manual|0",
+      "emc": 0
+    },
+    {
+      "item": "xnet:xnet_manual|0",
+      "emc": 0
+    },
+    {
+      "item": "rftoolscontrol:rftoolscontrol_manual|0",
+      "emc": 0
+    },
+    {
+      "item": "rftools:rftools_manual|0",
+      "emc": 0
+    },
+    {
+      "item": "tconstruct:book|0",
+      "emc": 0
+    },
+    {
+      "item": "extendedcrafting:singularity|1",
+      "emc": 2560000
+    },
+    {
+      "item": "extendedcrafting:singularity|5",
+      "emc": 20480000
+    },
+    {
+      "item": "extendedcrafting:singularity|6",
+      "emc": 81920000
+    },
+    {
+      "item": "extendedcrafting:singularity|7",
+      "emc": 163840000
+    },
+    {
+      "item": "extendedcrafting:singularity|16",
+      "emc": 1280000
+    },
+    {
+      "item": "extendedcrafting:singularity|17",
+      "emc": 1280000
+    },
+    {
+      "item": "extendedcrafting:singularity|18",
+      "emc": 2560000
+    },
+    {
+      "item": "extendedcrafting:singularity|19",
+      "emc": 1600000
+    },
+    {
+      "item": "extendedcrafting:singularity|22",
+      "emc": 5120000
+    },
+    {
+      "item": "extendedcrafting:singularity|23",
+      "emc": 5120000
+    },
+    {
+      "item": "extendedcrafting:singularity|25",
+      "emc": 10240000
+    },
+    {
+      "item": "extendedcrafting:singularity|24",
+      "emc": 3200000
+    },
+    {
+      "item": "extendedcrafting:singularity|26",
+      "emc": 5760000
+    },
+    {
+      "item": "extendedcrafting:singularity|27",
+      "emc": 12800000
+    },
+    {
+      "item": "extendedcrafting:singularity|28",
+      "emc": 5120000
+    },
+    {
+      "item": "thermalfoundation:material|136",
       "emc": 16384
     },
     {
-      "item": "draconicevolution:draconic_block|0",
-      "emc": 147456
+      "item": "magneticraft:ingots|9",
+      "emc": 16384
+    },
+    {
+      "item": "extendedcrafting:singularity|29",
+      "emc": 163840000
+    },
+    {
+      "item": "techreborn:ingot|15",
+      "emc": 16384
+    },
+    {
+      "item": "magneticraft:ingots|5",
+      "emc": 16384
+    },
+    {
+      "item": "extendedcrafting:singularity|30",
+      "emc": 163840000
+    },
+    {
+      "item": "thermalfoundation:material|135",
+      "emc": 16384
+    },
+    {
+      "item": "extendedcrafting:singularity|35",
+      "emc": 163840000
+    },
+    {
+      "item": "extendedcrafting:singularity|32",
+      "emc": 40960000
+    },
+    {
+      "item": "extendedcrafting:singularity|34",
+      "emc": 40960000
+    },
+    {
+      "item": "extendedcrafting:singularity|48",
+      "emc": 3840000
+    },
+    {
+      "item": "extendedcrafting:singularity|49",
+      "emc": 7040000
+    },
+    {
+      "item": "thermalfoundation:material|167",
+      "emc": 2432
+    },
+    {
+      "item": "extendedcrafting:singularity|50",
+      "emc": 24320000
+    },
+    {
+      "item": "extendedcrafting:singularity|64",
+      "emc": 10240000
+    },
+    {
+      "item": "extendedcrafting:singularity|65",
+      "emc": 10240000
+    },
+    {
+      "item": "extendedcrafting:singularity|66",
+      "emc": 20480000
+    },
+    {
+      "item": "contenttweaker:compressed_carbon_ingot|0",
+      "emc": 50000
+    },
+    {
+      "item": "appliedenergistics2:material|47",
+      "emc": 256000
+    },
+    {
+      "item": "minecraft:ender_eye|0",
+      "emc": 1792
+    },
+    {
+      "item": "rftools:dimensional_shard|0",
+      "emc": 16384
+    },
+    {
+      "item": "extrautils2:suncrystal|0",
+      "emc": 8192
+    },
+    {
+      "item": "extrautils2:flattransfernode|1",
+      "emc": 0
+    },
+    {
+      "item": "extrautils2:flattransfernode|0",
+      "emc": 0
+    },
+    {
+      "item": "actuallyadditions:item_misc|5",
+      "emc": 256
+    },
+    {
+      "item": "thermalfoundation:material|2048",
+      "emc": 3072
+    },
+    {
+      "item": "thermalfoundation:material|2050",
+      "emc": 3072
+    },
+    {
+      "item": "thermalfoundation:material|2052",
+      "emc": 3072
+    },
+    {
+      "item": "thermalfoundation:material|1027",
+      "emc": 3152
+    },
+    {
+      "item": "immersiveengineering:material|24",
+      "emc": 192
+    },
+    {
+      "item": "thermalfoundation:material|772",
+      "emc": 192
+    },
+    {
+      "item": "techreborn:dust|44",
+      "emc": 192
+    },
+    {
+      "item": "thermalfoundation:material|1026",
+      "emc": 3328
+    },
+    {
+      "item": "thermalfoundation:material|1025",
+      "emc": 3137
+    },
+    {
+      "item": "thermalfoundation:material|1024",
+      "emc": 1632
+    },
+    {
+      "item": "actuallyadditions:item_dust|4",
+      "emc": 864
+    },
+    {
+      "item": "enderio:item_material|32",
+      "emc": 864
+    },
+    {
+      "item": "enderio:item_material|74",
+      "emc": 2097
+    },
+    {
+      "item": "rftools:machine_frame|0",
+      "emc": 68136
+    },
+    {
+      "item": "techreborn:machine_frame|2",
+      "emc": 65936
     }
   ]
 }

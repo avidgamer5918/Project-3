@@ -1,0 +1,301 @@
+//chapter 1 Welcome
+Chapter1.Welcome.Subtitle=Welcome to Staged Learning. If you look in JEI you will notice a lot missing, don't worry it's still there just hidden, you have to progress further and acquire research to unlock the mods. You can work on research in the research tab, located right below the beginning tab.  JEI and the quest book will be your guiding hand in this pack. Each chapter is laid out to help you get the stuff you need to unlock the next main discovery.
+
+Chapter1.Obsidian.Subtitle=There are two ways of getting obsidian, you can either make a ruby, peridot, or sapphire pickaxe head from Tinkers' or you can make a diamond pick and do it the vanilla way.
+
+Chapter1.AkashicTome.Subtitle=You may have noticed that you spawned in with an akashic tome, this tome comes preloaded with almost all the game guide books in the pack. To open a book simply right click the tome and then left-click on the book you want. To go back to the original tome just left-click the book again. To get a book out of the tome just shift q when that book is active. If you have lost tome don't fret you can another with the use of an empty akashic tome. If you confused about how something in a mod works, a guide in the tome can most likely help you out.
+
+Chapter1.Scanner.Subtitle=If you are having issues finding a certain ore, you can use a scanner with a block module to specify what ore you want to search for.
+
+Chapter1.ChopChop.Subtitle=Using a log in a crafting table will only yield two logs.
+
+Chapter1.StoneAge.Subtitle=Vanilla tools last half as long. so, you are going want to make some better tools, but to do so you will need to do more research regarding tools.
+
+Chapter1.Tinkers.Subtitle=Once researched you can make better tools that will last longer and can be repaired.
+
+Chapter1.Tinkers2.Description=Note: Cant be completed till researched. Research can be found in the next tab down.
+
+Chapter1.OreCrushing.Subtitle=Ores can not be smelted in a furnace in its current form you need to use the crushing table to break down the ores into rocky chunks by hitting the ore with a hammer. You can smelt the rocky chunks in a furnace to get one ingot for one rocky chunk.
+
+Chapter1.OreCrushing2.Description=Note: To crush ores that are above the stone mining level you will need a better hammer. Also all Thermal and Tinker's Construct hammers will work with the crushing table.
+
+Chapter1.FirstPower.Subtitle=For first power, you can use the small steam engine which takes steam from the front of the machine where the white notch is at and outputs power on the top of the machine where the orange notch is at. Steam can be made by using a combustion generator with a boiler on top of it. The combustion generator will produce heat when given a burnable fuel. The boiler with need a supply of water. If you use a water generator from magneticraft as long as it's connected to the boiler it will supply it with water. The steam can be extracted from the boiler by using an iron pipe from magneticraft. In order to have it extract the steam, you need to right the pipe with a magneticraft wrench where the pipe connects to the boiler.  You can also an electric or rf heater to heat up the boiler. Another option for power is windmills or solar panels, which are a bit more expensive.
+
+Chapter1.Grinder.Subtitle=The grinder can be used to process ores into rocky chunks and to process wood into planks. You can input items into the machine on either the top or left side of the machine. Power can be inputted on the right side of the machine. and the procced items can be automatically output on the back of the machine by putting down some kind of storage block. This machine doesn't automatically input items you will need to use an inserter or some other kind of item transport to do it.
+
+Chapter1.Sieve.Subtitle=The sieve can be used to process rocky chunks into chunks and has a chance to give various metal dust as well. The machine can have items and power inputted on the front of the machine and the procced items are outputted on the bottom of the machine. There are three outputs on the bottom and each output corresponds to each output slot in the GUI.
+
+Chapter1.HydraulicPress.Subtitle=The hydraulic press can be used to make double plates, regular plates, and heavy plates. You change what type of plate you are making in the GUI. Items can be inputted into the front of the press and the plates can be outputted on the back of the press and power can be inputted on the sides of the press.
+
+Chapter1.OreDoubling.Subtitle=Using the rocky chunks obtained with the crushing table and using a bucket of water on the sluice, You can clean the rocky chunks into chunks that when smelted give you two ingots for one chunk.
+
+Chapter1.BoringPumpjack.Subtitle=At the cost of 40RF/Tick and after about 6 seconds this machine will produce 500mb of crude oil. The magnetcraft power can be used for this machine.
+
+Chapter1.OilHeater.Subtitle=The oil heater when it reaches 600° celsius using either an electric heater that uses magnetcraft power or an rf heater that uses rf power will output hot crude oil. The input for the crude oil is on the back of the machine and the output for the hot crude oil is on the top of the machine. 
+
+Chapter1.Refinery.Subtitle=The refinery when given hot crude oil which can be inputted on the back bottom side of the machine and some steam which can be inputted on either the left or right sides of the machine. it will refine the oil into various fuels. There are three outputs on each side of the block that output the processed oil. the top output slot outputs fuel contained in the tank in the GUI on the far right side. The output slot just below that outputs fuel contained in the tank in the GUI three from the right. The final output slot below the last one outputs fuel contained in the tank in the GUI two from the right. Using JEI you can see the various fuels that can be made using the refinery. The main fuel you need right now is light oil, gasoline, diesel, and kerosene. although not need now I would recommend keeping some of the heavy oil as it will be needed later in the pack. Light oil can be refined into gasoline, diesel, and kerosene by using another refinery.
+
+Chapter1.DriedBricks.Subtitle=Grout can be used to make dried bricks which will be needed later for Tinkers and can also be used in the Seared Smoker to get seared stone.
+
+Chapter1.SearedSmoker.Subtitle=To get seared bricks, you need to make a seared smoker, Which when given lava and stone it will output seared stone. It is more efficient to use grout in the Seared Smoker.
+
+Chapter1.SmelteryController.Subtitle=You can use the smeltery to make various metal tools and to also double your ores.
+
+Chapter1.Toolupgrade.Subtitle=To mine cobalt and ardite you are going to have to make an alumite pickaxe head.
+
+//chapter 2 Research
+Chapter2.Research.Subtitle=In this chapter, you will complete quests to unlock discoveries that you can use to unlock certain mods. There will be some research that you will need to turn in fluids to complete said research. You can do so by inputting the fluid into a task screen from FTB Quests or by having a tank or bucket in your inventory containing the fluid. The triangle-shaped quests are to unlock the main mods that you will need to progress further in the pack. The circle-shaped quests unlock mods that are not necessarily needed to complete the pack.
+
+Chapter2.BetterToolsResearch.Subtitle=This will unlock Tinker's Construct.
+
+Chapter2.IndustrialResearch.Subtitle=This will unlock Techreborn, and Immersive Engineering.
+
+Chapter2.BetterArmorResearch.Subtitle=This will unlock Constructs Armory.
+
+Chapter2.EnderStorageResearch.Subtitle=This will unlock Ender Storage, Ender Tanks, And Multistorage.
+
+Chapter2.AutomationResearch.Subtitle=This will unlock Actually Additions, OpenBlocks, Colossal Chests, and Darkutils.
+
+Chapter2.BetterPowerResearch.Subtitle=This will unlock Advanced Generators.
+
+Chapter2.AE2Research.Subtitle=This will unlock Applied Energistics 2, Extracells 2, AE2 Stuff, and Wireless Crafting Terminal.
+
+Chapter2.AvancedTechResearch.Subtitle=This will unlock all Thermal Mods, all Rftools mods, Industrial Foregoing, Environmental Tech, Compact Machines, Xnet, and Extra Utils 2.
+
+Chapter2.NuclearResearch.Subtitle=This will unlock Nuclearcraft, and Extreme Reactors.
+
+Chapter2.AdvancedMobResearch.Subtitle=This will unlock Deep Mob Learning.
+
+Chapter2.FutureTechResearch.Subtitle=This will unlock Redstonearsenal, Redstonerepository, Enderio, Mekanism, and Draconic Evolution.
+
+Chapter2.FlightResearch.Subtitle=In order to unlock this discovery you will have to obtain pristine matter for these mobs.
+
+Chapter2.LateGameResearch.Subtitle=This will unlock Project E, Avaritia, Projectex, and the rest of Extended Crafting.
+
+//chapter 3 Advanced Generators 
+
+Chapter3.Syngas.Subtitle=With the use of water and carbon aka(wood, coal, or charcoal) you can make syngas.
+
+Chapter3.GasTurbine.Subtitle=At the cost of fuel, you can use the gas turbine to create power. The type of turbine and the number of turbines dictate how much power is generated.
+
+//chapter 4
+
+Chapter4.Industrial.Subtitle=Welcome to the Industrial Stage. In this chapter you will be progressing through Immersive Engineering and Tech Reborn. The quests in this chapter will help complete the next research.
+
+Chapter4.CokeOven.Subtitle=The Coke Oven can be used to make coal coke, charcoal, and creosote oil.
+
+Chapter4.BlastFurnace.Subtitle=The Blast Furnace can be used to make steel.
+
+Chapter4.TreatedWood.Subtitle=By coating wood planks in creosote oil, I can get treated wood planks. You can use a Jerry can or a Thermal tank filled with creosote oil to bulk craft treated wood.
+
+Chapter4.EngineersWorkbench.Subtitle=The Engineer's Workbench is used to make components from Immersive Engineering.
+
+Chapter4.Steel.Subtitle=With the use of the blast furnace, you can make steel, although it is quite slow. 
+
+Chapter4.Crusher.Subtitle=The Crusher can be used to crush ore down into dust along with a few other things.
+
+Chapter4.MetalPress.Subtitle=The Metal Press can be used to make plates, gears, wires, and rods.
+
+Chapter4.IndustrialSqueezer.Subtitle=The Industrial Squeezer can be used to make plant oil.
+
+Chapter4.IndustrialFermenter.Subtitle=The Industrial Fermenter can be used to make ethanol.
+
+Chapter4.RefineryIE.Subtitle=The Refinery is used to make biodiesel.
+
+Chapter4.Generator.Subtitle=The Generator when given fuel will produce power. All Tech Reborn machines that use power take RF.
+
+Chapter4.ElectricFurnace.Subtitle=The Electric Furnace can be used to smelt items at the cost of power.
+
+Chapter4.GrinderTR.Subtitle=The Grinder can be used to grind down ores into dust.
+
+Chapter4.Extractor.Subtitle=The Extractor can be used to process sap into rubber.
+
+Chapter4.Compressor.Subtitle=The Compressor can be used to make certain plates.
+
+Chapter4.IndustrialCenterfuge.Subtitle=The Industrial Centrifuge can be used to make various components for Tech Reborn.
+
+Chapter4.IndustrialElectrolyzer.Subtitle=The Industrial Electrolyzer is used to process items into components used in Tech Reborn.
+
+Chapter4.RollingMachine.Subtitle=The Rolling Machine is used to make coils needed in Tech Reborn.
+
+Chapter4.IndustrialBlastFurnace.Subtitle=The Industrial Blast Furnace is used to smelt certain items from Tech Reborn.
+
+Chapter4.IndustrialBlastFurnace2.Description=If you are having issues building the multi-block; pressing the H will toggle the multi-block build guide. You can put lava in the two center blocks where there is air to obtain extra heat.
+
+Chapter4.PlateBendingMachine.Subtitle=The Plate Bending machine can be used to make plates.
+
+Chapter4.UpgradingTheBlastFurnace.Subtitle=Upgrading the machine casings will increase the heat for the Industrial Blast Furnace.
+
+Chapter4.UpgradingTheBlastFurnace2.Description=You will need the kanthal coils to get to 3000 heat needed to make hot tungstensteel. You can apply the coils but right-clicking the blast furnace with 4 kanthal coils in your hand.
+
+Chapter4.VacuumFreezer.Subtitle=The Vacuum Freezer can be used to cool hot tungstensteel.
+
+//Chapter 5
+
+Chapter5.Automation.Subtitle=Welcome to the Automation Stage. In this chapter, you will be progressing through Actually Additions. The quests in this chapter will help complete the next research.
+
+Chapter5.AtomicReconstructor.Subtitle=The Atomic Reconstructor can be used to make various items in Actually Additions.
+
+Chapter5.Empowerer.Subtitle=The Empowerer can be used to empower various items in Actually Additions.
+
+Chapter5.CanolaAutomation.Subtitle=Either a Farmer from Actually Additions or a Cloche from Immersive Engineering can be used to farm canola.
+
+Chapter5.CanolaPress.Subtitle=The Canola Press can be used to make canola oil. You can then use the Fermenting Barrel to make refined canola oil.
+
+Chapter5.CrystalizedCanolaSeeds.Subtitle=Crystalized canola seeds can be made in the Atomic Reconstructor. And are used to make the next tier of canola oil.
+
+Chapter5.EmpoweredCanolaSeeds.Subtitle=Empowered canola seeds can be made in an Empowerer. And are used to make the last tier of canola oil.
+
+//Chapter 6
+
+Chapter6.AdvancedTech.Subtitle=Welcome to the Advanced Tech Stage. In this chapter, you will be progressing through the mods Industrial Foregoing, Tech Reborn, RFTools, and Environmental Tech. The quests in this chapter will help complete the next research.
+
+Chapter6.FrackingStation.Subtitle=The Fracking Station can be used to make natural gas, at the cost of 500rf/tick.
+
+Chapter6.CrackingStation.Subtitle=The Cracking Station can be used to make both propylene and ethylene. Note: You are going to need two of these.
+
+Chapter6.ChemicalCombiner.Subtitle=The Chemical Combiner can be used to combine ethylene and propylene into plastic.
+
+Chapter6.MobSlauterFactory.Subtitle=The Mob Slaughter Factory can be used to kill mobs to create liquid meat and liquid pink slime.
+
+Chapter6.PinkSlime.Subtitle=To progress further in research you are going to need to make pink slime ingots. To make the machine needed to make the pink slime ingots you will first need to obtain pink slime. Pink slime can be obtained by placing a bucket of liquid pink in the world and eventually it will spawn a pink slime.
+
+Chapter6.FusionControlComputer.Subtitle=The Fusion Control Computer can be used to make various items in Tech Reborn but more specifically you will need it to make helium plasma cells for the research.
+
+Chapter6.LaserDrill.Subtitle=The Laser Drill can be used to generate ores at the cost of power. You can fine-tune what ores you get with the use of lenses.
+
+Chapter6.Assembler.Subtitle=Used to make Environmental Tech multi-blocks. If you are having issues building the multi-block you can refer to the digital guide for help which can found in the filled akashic tome.
+
+Chapter6.EnvironmentalTechCrystals.Subtitle=You can obtain the crystals from Environmental Tech by either traditional means or through fluid crafting.
+
+Chapter6.DimensionEnscriber.Subtitle=The dimension enscriber is used to make Rftools dimensions. To get dimensional shards, you will have to make an RFTools dimension. The ore does not spawn in the Overworld, End, or Nether, only in an RFTools dimension.
+
+Chapter6.VoidResourceMiner.Subtitle=The Void Resouce Miner will generate various items like stone, cobblestone, sand, etc. at the cost of power.
+
+Chapter6.VoidOreMiner.Subtitle=The Void Ore Miner will generate ores at the cost of power.
+
+Chapter6.VoidResourceMiner2.Subtitle=The Void Resource Miner will generate various items like stone, cobblestone, sand, etc. at the cost of power. It works faster and costs more power than the previous tier.
+
+Chapter6.VoidOreMiner2.Subtitle=The Void Ore Miner will generate ores at the cost of power. It works faster and costs more power than the previous tier.
+
+//Chapter 7
+
+Chapter7.FutureTech.Subtitle=Welcome to the Future Tech Stage. In this chapter, you will be progressing through the Thermal mods, Draconic Evolution, Ender IO, Extra Utils 2, and Mekanism. The quests in this chapter will help complete the next research.
+
+Chapter7.InfusionCraftionPt1.Subtitle=The Infusion Crafter can be used to make various items from Draconic Evolution.
+
+Chapter7.InfusionCraftionPt2.Subtitle=An upgraded version of the basic fusion crafter.
+
+Chapter7.InfusionCraftionPt3.Subtitle=An upgraded version of the wyvern fusion crafter.
+
+Chapter7.Awakened.Subtitle=Using four Draconium blocks, six Draconic Cores, one Dragon Heart, and a decent bit of power you can create Awakened Draconium.
+
+Chapter7.Dragonborn.Subtitle= You will need a good set of armor and tools to fight the chaos dragon.
+
+Chapter7.UpgradeTime.Subtitle=I strongly recommend you upgrade your armor and tools before you fight the chaos dragon.
+
+Chapter7.MeltyMelty.Subtitle=The magma crucible can be used to melt down certain items.
+
+Chapter7.ItTransposesThings.Subtitle=The fluid transposer can be used to make items from liquids.
+
+Chapter7.PulverizedManaInfusedMetal.Subtitle=Using liquid xp and pulverized mana infused metal or mithril dust in a fluid transposer will yeld mana dust.
+
+Chapter7.ThePathToDraconium.Subtitle=Melting down mana dust, and then using the by-product with enderium blend will yield in draconium dust.
+
+Chapter7.Draconium!.Subtitle=Using draconium dust in a furnace will yield draconium ingots.
+
+Chapter7.SmeltySmelty.Subtitle=The Induction Smelter can be used to make alloys and smelt dust into ingots.
+
+Chapter7.FluxedElectrumBlend.Subtitle=Fluxed electrum blend can be used to make fluxed electrum ingots.
+
+Chapter7.GelidEnderiumDust.Subtitle=Gelid enderium dust can be used to make gelid enderium ingots.
+
+Chapter7.AlloySmeler.Subtitle=The Alloy Smelter can be used to make various alloys and ingots.
+
+Chapter7.DarkSteel.Subtitle=Dark steel can be used to make various items in Ender IO.
+
+Chapter7.EndSteel.Subtitle=End steel can be used to make upgrade versions of Ender IO machines.
+
+Chapter7.MelodicAlloyIngot.Subtitle=Melodic alloy can be used to make items from the Ender IO addon Endergy.
+
+Chapter7.ElytrasAPlenty.Subtitle=You can dupe elytra by crafting them with a dragon scale.
+
+Chapter7.ElectricPump.Subtitle=The pump, when given a filter upgrade, will gather heavy water.
+
+Chapter7.ElectrolyticSeperator.Subtitle=By separating heavy water, you can make deuterium and oxygen. Deuterium can be used to make D-T fuel.
+
+Chapter7.ChemicalOxidizer.Subtitle=To make D-T fuel you are going to need to make liquid lithium. Seeing as Nuclear Craft Provides lithium there is no need to make the Thermal Evaporation multiblock.  The Chemical Oxidizer can be to make lithium dust into liquid lithium. Which can be used to make tritium, which will be needed for the production of D-T Fuel.
+
+Chapter7.SolarNeutronActivator.Subtitle=With the power of the sun, the Solar Neutron Reflector can be used to transform liquid lithium into tritium.
+
+Chapter7.ChemicalInfuser.Subtitle=The Chemical Infuser can combine deuterium and tritium into D-T fuel.
+
+//Chapter 8
+
+Chapter8.LateGame.Subtitle=Welcome to the Late Game Stage. In this chapter, you will work your way through Project E, Project Ex, and Avaritia.
+
+Chapter8.CompressedCarbon.Subtitle=Compressed carbon ingots can be made by compressing down one hundred and twenty-five coal blocks and one singularity from Applied Energistics.
+
+Chapter8.CraftingCore.Subtitle=The crafting core can be used to make various items needed to progress.
+
+Chapter8.UltimateCraftingTable.Subtitle=The ultimate crafting table is used to make the ultimate singularity and other late-game items.
+
+Chapter8.QuantumCompressor.Subtitle=The quantum compressor can be used to compress down certain items into singularities.
+
+Chapter8.EnderCrafter.Subtitle=The ender crafter can be used to make various items in Extended Crafting. The ender crafter will search for ender alternators in a 7x7x7 area around the crafter. The more ender alternators you have the fast the craft goes.
+
+Chapter8.UltimateIngot.Subtitle=The ultimate ingot can be used to make the Avaritia armor and tools.
+
+Chapter8.BasicEnergyEMCLink.Subtitle=Basic EMC links can be used to collect EMC from collectors, and it will add the EMC to your network.
+
+Chapter8.PersonalEMCLink.Subtitle=The Personal EMC link has the same feature as the basic but it can import and export items. It can also be used with Applied Energistics storage buses.
+
+Chapter8.RefinedEMCLink.Subtitle=The Refined EMC link has the same feature as the personal EMC link but it has one input slot and nine export slots. It can also be used with Applied Energistics storage buses.
+
+Chapter8.CompressedRefinedEMCLink.Subtitle=The Compressed EMC link is the same as the refined but it has 1 input slot and 54 output slots. It can also be used with Applied Energistics storage buses.
+
+Chapter8.BasicCollectorMK1.Subtitle=Collectors can be used to produce EMC. Higher tiers produce more EMC per second. With the use of the relay, you can connect multiple collectors to one EMC link. 
+
+Chapter8.BasicFlowerPowerBonsaiPot.Subtitle=Power flower bonsai pots produce way more than regular collectors and you don't need the EMC link, It will automatically add the EMC to your network.
+
+Chapter8.PhilospherStone.Subtitle=Villager souls can be obtained by killing villagers with a sword enchanted with the reaper enchant. You can increase your chances of getting villager souls by putting the reaper enchant on the draconic staff of power.
+
+//Chapter 9
+
+Chapter9.CreativeChallenges.Subtitle=In this chapter, there are various challenges you can complete to earn points. You can use the points to unlock a creative item of your choice. there is a limited amount of points that you can get, so choose wisely.
+
+//Chaprer 10
+
+Chapter10.UsfulOddities.Subtitle=This quest chapter is optional. This chapter is full of quests containing an assortment of mod items that could be useful during your journey through the pack.
+
+Chapter10.CulinaryConstruct.Subtitle=The sandwich station can make an assortment of sandwiches by combining bread and almost any other kind of food item.
+
+Chapter10.ChestTransporter.Subtitle=The chest transporter can be used to move most item storage containers. It can also be used to move mob spawners.
+
+Chapter10.DiamondWand.Subtitle=The diamond wand is a useful item that can help you build up structures with ease. If you look at the block you want to build and if you the item in your inventory you can right-click to build several blocks at once.
+
+Chapter10.SoundMuffler.Subtitle=With the power of the super sound muffler you can whitelist or blocklist sounds that you don't want to hear at a certain block range.
+
+Chapter10.DankNull.Subtitle=The /Dank/Null Can be used to store a certain amount of items, It will also automatically pick up all the items that are In Its inventory. Once it reaches the limit of that item in its inventory it voids any more of that item it picks up. There are multiple tiers of this item, each increasing tier holds more items than the last.
+
+Chapter10.TapeMeasure.Subtitle=The Tape measure has three modes that can be used to measure the number of blocks, bits, or distance from the starting point to the user. 
+
+Chapter10.MegaTorch.Subtitle=The mega torch will prevent hostile mob spawns in 64 block radius. 
+
+Chapter10.NatureCompass.Subtitle=The nature compass helps find any biome specified. 
+
+Chapter10.BuildingGadgets.Subtitle=The Building Gadgets mod has four gadgets that are helpful when building.
+
+Chapter10.BlockModule.Subtitle=The scanner module block can be used to specify a certain block you want to scan for. To specify the block you want to search for you have to right-click that block with the block module in your main hand.
+
+Chapter10.IChisel.Subtitle=The ichisel functions similarly to the chisel but it can chisel multiple stacks of one item at a time and it will show a preview in the GUI of what the block will look like in various block formations.
+
+Chapter10.Waystone.Subtitle=Waystones can be used to teleport to other waystones. However, if the waystone is too far away it will cost a certain amount of XP depending on how far the waystone is from the other waystone.
+
+Chapter10.ForgeLexicon.Subtitle=By empowering the forge lexicon (usually bound to the V key) you can convert certain items into items of similar type.
+
+Chapter10.Trashcans.Subtitle=The trash cans can be used to void either items, fluids, or energy.
+
+
+
+

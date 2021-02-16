@@ -1,0 +1,37 @@
+{
+	title: "Smelty Smelty",
+	x: 0.0d,
+	y: 3.0d,
+	description: "{Chapter7.SmeltySmelty.Subtitle}",
+	dependencies: [
+		"8939ece7"
+	],
+	tasks: [{
+		uid: "7c0fe079",
+		type: "item",
+		items: [{
+			id: "thermalexpansion:machine",
+			tag: {
+				RSControl: 0b,
+				Facing: 3b,
+				Energy: 0,
+				SideCache: [B;
+					3b,
+					1b,
+					2b,
+					2b,
+					2b,
+					2b
+				],
+				Level: 0b
+			},
+			Damage: 3s
+		}]
+	}],
+	rewards: [{
+		uid: "f4b9f336",
+		type: "item",
+		item: "thermalexpansion:augment 1 128",
+		count: 4
+	}]
+}

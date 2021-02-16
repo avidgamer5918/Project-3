@@ -1,0 +1,21 @@
+{
+	x: 2.0d,
+	y: 6.0d,
+	description: "{Chapter6.VoidOreMiner2.Subtitle}",
+	dependencies: [
+		"d992305b"
+	],
+	tasks: [{
+		uid: "0e33f466",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_ore_miner_cont_5"
+		}]
+	}],
+	rewards: [{
+		uid: "13851a39",
+		type: "item",
+		item: "bhc:relic_apple",
+		count: 4
+	}]
+}

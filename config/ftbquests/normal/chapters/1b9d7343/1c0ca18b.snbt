@@ -1,0 +1,44 @@
+{
+	icon: "extendedcrafting:ender_crafter",
+	x: 0.5d,
+	y: 1.0d,
+	description: "{Chapter8.EnderCrafter.Subtitle}",
+	dependencies: [
+		"ba58d4e5"
+	],
+	tasks: [{
+		uid: "3897ba1e",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:ender_crafter"
+		}]
+	},
+	{
+		uid: "111c9e2b",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:ender_alternator"
+		}],
+		count: 9L
+	},
+	{
+		uid: "804847ec",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 48"
+		}]
+	},
+	{
+		uid: "054f112d",
+		type: "item",
+		items: [{
+			item: "extendedcrafting:material 1 24"
+		}]
+	}],
+	rewards: [{
+		uid: "8fcb96ef",
+		type: "item",
+		item: "extendedcrafting:ender_alternator",
+		count: 5
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 0.0d,
+	y: 4.0d,
+	description: "{Chapter7.AlloySmeler.Subtitle}",
+	dependencies: [
+		"acdb6c2f"
+	],
+	tasks: [{
+		uid: "2567e391",
+		type: "item",
+		items: [{
+			item: "enderio:block_alloy_smelter"
+		}]
+	}],
+	rewards: [{
+		uid: "f7c070d2",
+		type: "item",
+		item: "enderio:item_yeta_wrench"
+	},
+	{
+		uid: "2911a3ad",
+		type: "item",
+		item: "enderio:item_conduit_probe"
+	}]
+}

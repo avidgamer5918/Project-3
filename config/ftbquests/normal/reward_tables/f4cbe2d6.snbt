@@ -1,0 +1,37 @@
+{
+	title: "TechRebornReward",
+	loot_size: 1,
+	rewards: [{
+		item: "techreborn:cable 1 5",
+		count: 8
+	},
+	{
+		item: "techreborn:part 1 32",
+		count: 16
+	},
+	{
+		item: "techreborn:part 1 29",
+		count: 4
+	},
+	{
+		item: "techreborn:part 1 30",
+		count: 2
+	},
+	{
+		item: "techreborn:part 1 35",
+		count: 4
+	},
+	{
+		item: "techreborn:ingot 1 21",
+		count: 2
+	},
+	{
+		item: "techreborn:upgrades 1 1"
+	},
+	{
+		item: "techreborn:upgrades 1 2"
+	},
+	{
+		item: "techreborn:upgrades"
+	}]
+}

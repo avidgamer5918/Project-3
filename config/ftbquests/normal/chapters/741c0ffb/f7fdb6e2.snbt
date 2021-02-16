@@ -1,0 +1,20 @@
+{
+	x: -5.0d,
+	y: -1.0d,
+	description: "{Chapter4.EngineersWorkbench.Subtitle}",
+	dependencies: [
+		"6306c189"
+	],
+	tasks: [{
+		uid: "4411a354",
+		type: "item",
+		items: [{
+			item: "immersiveengineering:wooden_device0 1 2"
+		}]
+	}],
+	rewards: [{
+		uid: "c1f06bc2",
+		type: "choice",
+		table: 3
+	}]
+}

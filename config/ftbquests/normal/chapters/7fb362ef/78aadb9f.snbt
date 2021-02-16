@@ -1,0 +1,85 @@
+{
+	title: "Tinkers",
+	icon: "tconstruct:tooltables",
+	x: -11.0d,
+	y: -16.0d,
+	description: "{Chapter1.Tinkers.Subtitle}",
+	text: [
+		"{Chapter1.Tinkers2.Description}"
+	],
+	dependencies: [
+		"d1d71e85"
+	],
+	tasks: [{
+		uid: "3a5dadbc",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables"
+		}]
+	},
+	{
+		uid: "5819c1ca",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 3"
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8be3bfc7",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:log",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 2s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3ef11014",
+		type: "item",
+		items: [{
+			id: "tconstruct:tooltables",
+			tag: {
+				textureBlock: {
+					id: "minecraft:planks",
+					Count: 1b,
+					Damage: 0s
+				}
+			},
+			Damage: 1s
+		}],
+		ignore_nbt: 1b
+	},
+	{
+		uid: "01766a5c",
+		type: "item",
+		items: [{
+			item: "tconstruct:tooltables 1 4"
+		}]
+	},
+	{
+		uid: "ddae096a",
+		type: "item",
+		items: [{
+			item: "tconstruct:pattern"
+		}],
+		count: 16L
+	}],
+	rewards: [{
+		uid: "1e47acbe",
+		type: "xp_levels",
+		xp_levels: 1
+	},
+	{
+		uid: "f259827a",
+		type: "choice",
+		table: 0
+	}]
+}

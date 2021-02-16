@@ -1,0 +1,40 @@
+{
+	title: "Nuclear Research",
+	icon: "nuclearcraft:fuel_californium 1 7",
+	x: 1.0d,
+	y: 3.0d,
+	shape: "circle",
+	description: "{Chapter2.NuclearResearch.Subtitle}",
+	dependencies: [
+		"8a6e3f6e"
+	],
+	tasks: [{
+		uid: "c83c3d7d",
+		type: "fluid",
+		fluid: "syngas",
+		amount: 80000
+	},
+	{
+		uid: "10a4c834",
+		type: "fluid",
+		fluid: "refined_fuel",
+		amount: 80000
+	},
+	{
+		uid: "a886edc2",
+		type: "fluid",
+		fluid: "tree_oil",
+		amount: 80000
+	},
+	{
+		uid: "e97d7dea",
+		type: "fluid",
+		fluid: "refined_biofuel",
+		amount: 80000
+	}],
+	rewards: [{
+		uid: "b72c7023",
+		type: "item",
+		item: "contenttweaker:nuclear_discovery"
+	}]
+}

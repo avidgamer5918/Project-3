@@ -1,0 +1,20 @@
+{
+	x: 1.0d,
+	y: 4.0d,
+	description: "{Chapter6.VoidResourceMiner2.Subtitle}",
+	dependencies: [
+		"9062a7a4"
+	],
+	tasks: [{
+		uid: "06a01ae4",
+		type: "item",
+		items: [{
+			item: "environmentaltech:void_res_miner_cont_3"
+		}]
+	}],
+	rewards: [{
+		uid: "42817633",
+		type: "item",
+		item: "bhc:green_heart"
+	}]
+}

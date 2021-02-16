@@ -1,0 +1,28 @@
+{
+	title: "Fluxed Electrum Blend",
+	x: -1.0d,
+	y: 3.0d,
+	description: "{Chapter7.FluxedElectrumBlend.Subtitle}",
+	dependencies: [
+		"acdb6c2f",
+		"8939ece7"
+	],
+	tasks: [{
+		uid: "2f630d5c",
+		type: "item",
+		items: [{
+			item: "redstonearsenal:material"
+		}],
+		count: 8L
+	}],
+	rewards: [{
+		uid: "2e42639c",
+		type: "item",
+		item: {
+			id: "redstonearsenal:tool.wrench_flux",
+			tag: {
+				Energy: 0
+			}
+		}
+	}]
+}
