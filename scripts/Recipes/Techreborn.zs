@@ -7,6 +7,8 @@ import crafttweaker.item.IIngredient;
     recipes.removeByRecipeName("techreborn:machine_casing_5");
     recipes.removeByRecipeName("techreborn:machine_casing_6");
     recipes.removeByRecipeName("techreborn:iron_furnace");
+    recipes.removeByRecipeName("techreborn:wire_mill");
+    recipes.removeByRecipeName("techreborn:wire_mill_1");
 //added recipes
     recipes.addShaped("techreborn_casing_reinforced", <techreborn:machine_casing:1> * 4, [
         [<ore:plateSteel>,<ore:plateSteel>,<ore:plateSteel>],
@@ -27,6 +29,11 @@ import crafttweaker.item.IIngredient;
         [<ore:reflectorThick>,<ore:reflectorThick>,<ore:reflectorThick>],
         [<ore:reflectorThick>,<ore:ingotIridium>,<ore:reflectorThick>],
         [<ore:reflectorThick>,<ore:reflectorThick>,<ore:reflectorThick>]
+    ]);
+    recipes.addShaped("techreborn_wiremill", <techreborn:wire_mill>, [
+        [<ore:plateCopper>,<techreborn:extractor>,<ore:plateCopper>],
+        [<ore:circuitBasic>,<techreborn:machine_frame>,<ore:circuitBasic>],
+        [<ore:plateCopper>,<ore:craftingPiston>,<ore:plateCopper>]
     ]);
 //removed grinder recipes
     mods.techreborn.grinder.removeRecipe(<thermalfoundation:material:68>);
